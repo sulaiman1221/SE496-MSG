@@ -1,0 +1,170 @@
+{
+  "app": {
+    "title": "MSG",
+    "subtitle": "مولّد السيناريوهات العسكرية"
+  },
+  "nav": {
+    "create": "إنشاء سيناريو",
+    "history": "السجل",
+    "review": "المراجعة"
+  },
+  "common": {
+    "language": "اللغة",
+    "english": "English",
+    "arabic": "العربية",
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "download": "تنزيل",
+    "any": "الكل"
+  },
+  "missionInput": {
+    "heading": "معايير المهمة",
+    "sections": {
+      "mission": { "title": "تفاصيل المهمة" },
+      "environment": { "title": "البيئة" },
+      "aircraft": { "title": "طائرات ومركبات القوات الجوية الملكية السعودية" },
+      "forces": { "title": "تشكيل القوات" },
+      "generation": { "title": "خيارات التوليد" }
+    },
+    "fields": {
+      "missionType": "نوع المهمة",
+      "title": "عنوان السيناريو (اختياري)",
+      "terrain": "التضاريس",
+      "weather": "الطقس",
+      "timeOfDay": "الوقت",
+      "visibility": "الرؤية",
+      "aircraft": "اختر الطائرات/المركبات",
+      "friendlyUnitTypes": "أنواع الوحدات الصديقة",
+      "enemyThreatLevel": "مستوى تهديد العدو",
+      "nVariants": "عدد البدائل",
+      "additionalContext": "سياق إضافي"
+    },
+    "placeholders": {
+      "title": "مثال: عملية درع الصحراء",
+      "additionalContext": "أي متطلبات محددة، مراجع عقيدية، أو قيود…"
+    },
+    "hints": {
+      "nVariants": "بين {{min}} و {{max}}.",
+      "aircraft": "تم اختيار {{n}}. قم بالتمرير للمزيد.",
+      "bilingual": "تُولَّد السيناريوهات باللغتين العربية والإنجليزية تلقائيًا.",
+      "generating": "جارٍ كتابة والتحقق من {{n}} بدائل ثنائية اللغة. يستغرق ذلك عادةً من 15 إلى 30 ثانية."
+    },
+    "auto": "تلقائي",
+    "submit": "توليد {{n}} سيناريوهات",
+    "generating": "جارٍ التوليد…",
+    "error": "فشل توليد السيناريو. راجع سجلات الخادم وأعد المحاولة."
+  },
+  "history": {
+    "heading": "سجل السيناريوهات",
+    "subheading": "السيناريوهات التي تم توليدها سابقًا. قم بالتصفية وافتح أيًا منها للمراجعة.",
+    "new": "سيناريو جديد",
+    "filters": {
+      "missionType": "نوع المهمة",
+      "difficulty": "مستوى الصعوبة",
+      "dateFrom": "من",
+      "dateTo": "إلى"
+    },
+    "columns": {
+      "date": "التاريخ",
+      "missionType": "نوع المهمة",
+      "difficulty": "الصعوبة",
+      "status": "الحالة"
+    },
+    "empty": {
+      "title": "لا توجد سيناريوهات بعد.",
+      "cta": "أنشئ أول سيناريو"
+    }
+  },
+  "review": {
+    "heading": "مراجعة السيناريو",
+    "subheading": "{{count}} بدائل ({{language}}). استخدم مبدّل اللغة في الشريط العلوي.",
+    "backToHistory": "العودة إلى السجل",
+    "notFound": "لم يتم العثور على السيناريو.",
+    "noVariantsInLanguage": "لا توجد بدائل بهذه اللغة لهذا السيناريو.",
+    "meta": {
+      "created": "تاريخ الإنشاء",
+      "missionType": "نوع المهمة",
+      "difficulty": "الصعوبة",
+      "model": "النموذج"
+    }
+  },
+  "variant": {
+    "minutes": "د",
+    "atPhase": "في المرحلة {{phase}}",
+    "noUnits": "لم تُحدَّد وحدات.",
+    "sections": {
+      "objectives": "الأهداف",
+      "phases": "المراحل",
+      "rulesOfEngagement": "قواعد الاشتباك",
+      "decisionPoints": "نقاط القرار",
+      "friendlyForces": "القوات الصديقة",
+      "opposingForces": "قوات العدو",
+      "evaluationMetrics": "معايير التقييم"
+    },
+    "environment": {
+      "terrain": "التضاريس",
+      "weather": "الطقس",
+      "timeOfDay": "الوقت",
+      "region": "المنطقة"
+    },
+    "force": {
+      "designation": "التسمية",
+      "size": "الحجم",
+      "role": "الدور",
+      "weapons": "الأسلحة",
+      "vehicles": "المركبات"
+    },
+    "status": {
+      "validated": "تم التحقق",
+      "needsReview": "بحاجة إلى مراجعة"
+    }
+  },
+  "enum": {
+    "missionType": {
+      "assault": "اقتحام",
+      "defense": "دفاع",
+      "ambush": "كمين"
+    },
+    "difficulty": {
+      "easy": "سهل",
+      "medium": "متوسط",
+      "hard": "صعب",
+      "expert": "خبير"
+    },
+    "terrain": {
+      "desert": "صحراء",
+      "mountain": "جبل"
+    },
+    "weather": {
+      "clear": "صحو",
+      "sandstorm": "عاصفة رملية",
+      "fog": "ضباب"
+    },
+    "timeOfDay": {
+      "dawn": "الفجر",
+      "day": "النهار",
+      "dusk": "الغسق",
+      "night": "الليل"
+    },
+    "threatLevel": {
+      "low": "منخفض",
+      "moderate": "متوسط",
+      "high": "مرتفع",
+      "critical": "حرج"
+    },
+    "priority": {
+      "primary": "رئيسي",
+      "secondary": "ثانوي"
+    },
+    "unitType": {
+      "infantry_squad": "فصيلة مشاة",
+      "mechanized_platoon": "فصيلة آلية",
+      "armor_section": "قسم مدرعات",
+      "special_forces_team": "فريق قوات خاصة",
+      "support_element": "عنصر دعم"
+    }
+  }
+}

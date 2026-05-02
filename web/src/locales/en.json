@@ -1,0 +1,170 @@
+{
+  "app": {
+    "title": "MSG",
+    "subtitle": "Military Scenario Generator"
+  },
+  "nav": {
+    "create": "Create Scenario",
+    "history": "History",
+    "review": "Review"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "download": "Download",
+    "any": "Any"
+  },
+  "missionInput": {
+    "heading": "Mission Parameters",
+    "sections": {
+      "mission": { "title": "Mission Details" },
+      "environment": { "title": "Environment" },
+      "aircraft": { "title": "RSAF Aircraft & Vehicles" },
+      "forces": { "title": "Forces Configuration" },
+      "generation": { "title": "Generation Options" }
+    },
+    "fields": {
+      "missionType": "Mission Type",
+      "title": "Scenario Title (Optional)",
+      "terrain": "Terrain",
+      "weather": "Weather",
+      "timeOfDay": "Time of Day",
+      "visibility": "Visibility",
+      "aircraft": "Select Aircraft/Vehicles",
+      "friendlyUnitTypes": "Friendly Unit Types",
+      "enemyThreatLevel": "Enemy Threat Level",
+      "nVariants": "Number of Variants",
+      "additionalContext": "Additional Context"
+    },
+    "placeholders": {
+      "title": "e.g., Operation Desert Shield",
+      "additionalContext": "Any specific requirements, doctrine references, or constraints…"
+    },
+    "hints": {
+      "nVariants": "Between {{min}} and {{max}}.",
+      "aircraft": "{{n}} selected. Scroll for more.",
+      "bilingual": "Scenarios are generated in English and Arabic automatically.",
+      "generating": "Writing and validating {{n}} bilingual variants. This usually takes 15–30 seconds."
+    },
+    "auto": "Auto",
+    "submit": "Generate {{n}} Scenarios",
+    "generating": "Generating…",
+    "error": "Scenario generation failed. Check the backend logs and try again."
+  },
+  "history": {
+    "heading": "Scenario History",
+    "subheading": "Previously generated scenarios. Filter and open any for review.",
+    "new": "New scenario",
+    "filters": {
+      "missionType": "Mission type",
+      "difficulty": "Difficulty",
+      "dateFrom": "From",
+      "dateTo": "To"
+    },
+    "columns": {
+      "date": "Date",
+      "missionType": "Mission type",
+      "difficulty": "Difficulty",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No scenarios yet.",
+      "cta": "Create your first scenario"
+    }
+  },
+  "review": {
+    "heading": "Scenario Review",
+    "subheading": "{{count}} variants ({{language}}). Use the top-bar language switch to toggle.",
+    "backToHistory": "Back to history",
+    "notFound": "Scenario not found.",
+    "noVariantsInLanguage": "This scenario has no variants in the selected language.",
+    "meta": {
+      "created": "Created",
+      "missionType": "Mission type",
+      "difficulty": "Difficulty",
+      "model": "Model"
+    }
+  },
+  "variant": {
+    "minutes": "min",
+    "atPhase": "At phase {{phase}}",
+    "noUnits": "No units specified.",
+    "sections": {
+      "objectives": "Objectives",
+      "phases": "Phases",
+      "rulesOfEngagement": "Rules of Engagement",
+      "decisionPoints": "Decision Points",
+      "friendlyForces": "Friendly Forces",
+      "opposingForces": "Opposing Forces",
+      "evaluationMetrics": "Evaluation Metrics"
+    },
+    "environment": {
+      "terrain": "Terrain",
+      "weather": "Weather",
+      "timeOfDay": "Time of day",
+      "region": "Region"
+    },
+    "force": {
+      "designation": "Designation",
+      "size": "Size",
+      "role": "Role",
+      "weapons": "Weapons",
+      "vehicles": "Vehicles"
+    },
+    "status": {
+      "validated": "Validated",
+      "needsReview": "Needs review"
+    }
+  },
+  "enum": {
+    "missionType": {
+      "assault": "Assault",
+      "defense": "Defense",
+      "ambush": "Ambush"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "expert": "Expert"
+    },
+    "terrain": {
+      "desert": "Desert",
+      "mountain": "Mountain"
+    },
+    "weather": {
+      "clear": "Clear",
+      "sandstorm": "Sandstorm",
+      "fog": "Fog"
+    },
+    "timeOfDay": {
+      "dawn": "Dawn",
+      "day": "Day",
+      "dusk": "Dusk",
+      "night": "Night"
+    },
+    "threatLevel": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "priority": {
+      "primary": "Primary",
+      "secondary": "Secondary"
+    },
+    "unitType": {
+      "infantry_squad": "Infantry Squad",
+      "mechanized_platoon": "Mechanized Platoon",
+      "armor_section": "Armor Section",
+      "special_forces_team": "Special Forces Team",
+      "support_element": "Support Element"
+    }
+  }
+}
