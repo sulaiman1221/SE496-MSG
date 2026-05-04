@@ -84,6 +84,7 @@
     "backToHistory": "Back to history",
     "notFound": "Scenario not found.",
     "noVariantsInLanguage": "This scenario has no variants in the selected language.",
+    "downloadImage": "Download image",
     "meta": {
       "created": "Created",
       "missionType": "Mission type",

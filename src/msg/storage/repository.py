@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime
 from typing import Any
-from uuid import UUID
+from uuid import UUID, uuid4
 
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from supabase import AsyncClient
@@ -17,6 +17,7 @@ from msg.domain import (
 )
 
 _log = logging.getLogger(__name__)
+_IMAGE_BUCKET = "scenario-images"
 
 
 class ScenarioFilters(BaseModel):
@@ -44,18 +45,39 @@ class Repository:
     def __init__(self, client: AsyncClient) -> None:
         self._client = client
 
-    async def save_scenario(self, mission: Mission, model: str) -> UUID:
+    async def save_scenario(
+        self,
+        mission: Mission,
+        model: str,
+        image_url: str | None = None,
+    ) -> UUID:
         response = (
             await self._client.table("scenarios")
             .insert(
                 {
                     "mission": mission.model_dump(mode="json"),
                     "model": model,
+                    "image_url": image_url,
                 }
             )
             .execute()
         )
         return UUID(response.data[0]["id"])
+
+    async def upload_scenario_image(self, image_bytes: bytes | None) -> str | None:
+        if not image_bytes:
+            return None
+        try:
+            filename = f"{uuid4()}.png"
+            await self._client.storage.from_(_IMAGE_BUCKET).upload(
+                filename,
+                image_bytes,
+                file_options={"content-type": "image/png"},
+            )
+            return self._client.storage.from_(_IMAGE_BUCKET).get_public_url(filename)
+        except Exception as exc:
+            _log.warning("scenario image upload failed: %s", exc)
+            return None
 
     async def save_variants(
         self, scenario_id: UUID, generated: list[GeneratedVariant]
@@ -123,6 +145,7 @@ class Repository:
             mission=Mission(**row["mission"]),
             status=row["status"],
             model=row["model"],
+            image_url=row.get("image_url"),
             variants=[
                 ScenarioVariant(
                     id=v["id"],

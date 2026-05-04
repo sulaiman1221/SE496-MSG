@@ -101,4 +101,5 @@ class Scenario(BaseModel):
     mission: Mission
     status: str
     model: str
+    image_url: str | None = None
     variants: list[ScenarioVariant] = Field(default_factory=list)

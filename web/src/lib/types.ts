@@ -149,6 +149,7 @@ export interface Scenario {
   mission: Mission;
   status: string;
   model: string;
+  image_url: string | null;
   variants: ScenarioVariant[];
 }
 

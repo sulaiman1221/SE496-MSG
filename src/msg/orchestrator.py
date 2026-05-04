@@ -1,6 +1,8 @@
 import asyncio
 from uuid import UUID
 
+from openai import AsyncOpenAI
+
 from msg.agents import (
     PlannerAgent,
     TranslatorAgent,
@@ -12,6 +14,7 @@ from msg.agents import (
 )
 from msg.config import Settings
 from msg.domain import GeneratedVariant, Mission
+from msg.images import generate_scenario_image_bytes
 from msg.storage.repository import Repository
 
 
@@ -25,6 +28,7 @@ class Orchestrator:
         validator: ValidatorAgent,
         repository: Repository,
         settings: Settings,
+        openai_client: AsyncOpenAI,
     ) -> None:
         self._planner = planner
         self._variant = variant_agent
@@ -32,6 +36,7 @@ class Orchestrator:
         self._validator = validator
         self._repository = repository
         self._settings = settings
+        self._openai_client = openai_client
 
     async def generate(self, mission: Mission) -> list[GeneratedVariant]:
         plan = await self._planner.run(mission)
@@ -67,8 +72,18 @@ class Orchestrator:
 
     async def generate_and_persist(self, mission: Mission) -> UUID:
         generated = await self.generate(mission)
+
+        image_bytes = await generate_scenario_image_bytes(
+            client=self._openai_client,
+            variant=generated[0].en,
+            model=self._settings.openai_image_model,
+        )
+        image_url = await self._repository.upload_scenario_image(image_bytes)
+
         scenario_id = await self._repository.save_scenario(
-            mission=mission, model=self._settings.openai_model
+            mission=mission,
+            model=self._settings.openai_model,
+            image_url=image_url,
         )
         await self._repository.save_variants(
             scenario_id=scenario_id, generated=generated
@@ -79,6 +94,7 @@ class Orchestrator:
             detail={
                 "n_variants": len(generated),
                 "n_failed": sum(1 for g in generated if not g.verdict.passed),
+                "has_image": image_url is not None,
             },
         )
         return scenario_id

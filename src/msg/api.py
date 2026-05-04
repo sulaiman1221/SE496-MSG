@@ -31,6 +31,7 @@ def _build_orchestrator(
         validator=ValidatorAgent(client=openai_client, settings=settings),
         repository=repository,
         settings=settings,
+        openai_client=openai_client,
     )
 
 

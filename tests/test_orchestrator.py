@@ -53,6 +53,7 @@ def fake_agents():
 def fake_repository():
     repo = AsyncMock(spec=Repository)
     repo.save_scenario.return_value = uuid4()
+    repo.upload_scenario_image.return_value = None
     return repo
 
 
@@ -65,6 +66,7 @@ def orchestrator(fake_agents, fake_repository, settings):
         validator=fake_agents["validator"],
         repository=fake_repository,
         settings=settings,
+        openai_client=AsyncMock(),
     )
 
 
@@ -193,7 +195,7 @@ async def test_generate_and_persist_writes_scenario_variants_and_audit(
     scenario_id = await orchestrator.generate_and_persist(sample_mission)
 
     fake_repository.save_scenario.assert_awaited_once_with(
-        mission=sample_mission, model=settings.openai_model
+        mission=sample_mission, model=settings.openai_model, image_url=None
     )
     fake_repository.save_variants.assert_awaited_once()
     saved_variants = fake_repository.save_variants.await_args.kwargs["generated"]
