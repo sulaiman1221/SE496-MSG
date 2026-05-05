@@ -50,7 +50,7 @@
       "nVariants": "Between {{min}} and {{max}}.",
       "aircraft": "{{n}} selected. Scroll for more.",
       "bilingual": "Scenarios are generated in English and Arabic automatically.",
-      "generating": "Writing and validating {{n}} bilingual variants. This usually takes 15–30 seconds."
+      "generating": "Writing and validating {{n}} bilingual variants."
     },
     "auto": "Auto",
     "submit": "Generate {{n}} Scenarios",
