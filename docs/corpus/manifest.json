@@ -1,0 +1,42 @@
+{
+  "description": "Doctrine corpus consumed by the retrieval module. Each file is the plain-text extraction of an authoritative public-release military document.",
+  "documents": [
+    {
+      "filename": "ajp-3-2.txt",
+      "title": "Allied Joint Publication 3.2 — Allied Joint Doctrine for Land Operations",
+      "publisher": "NATO Standardization Office",
+      "edition": "Edition B Version 1, February 2022",
+      "source_url": "https://assets.publishing.service.gov.uk/media/62b45b2de90e0765cdf62e03/20220207-AJP3-2_EDB_Land_Ops.pdf",
+      "downloaded": "2026-05-05",
+      "licence": "NATO public release; UK Crown copyright reproduced under the Open Government Licence v3.0"
+    },
+    {
+      "filename": "fm-3-21-8.txt",
+      "title": "FM 3-21.8 The Infantry Rifle Platoon and Squad (Chapter 1: Fundamentals of Tactics)",
+      "publisher": "U.S. Department of the Army",
+      "edition": "28 March 2007",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/FM%203-21.8%20%20The%20Infantry%20Rifle%20Platoon%20and%20Squad_1.pdf",
+      "downloaded": "2026-05-05",
+      "licence": "Work of the U.S. federal government, public domain. Distribution statement on the original cover: 'Approved for public release; distribution is unlimited.'",
+      "notes": "Part 1 of a multi-part publication; contains Chapter 1 (Fundamentals of Tactics) only."
+    },
+    {
+      "filename": "san-remo-roe.txt",
+      "title": "Rules of Engagement Handbook",
+      "publisher": "International Institute of Humanitarian Law (Sanremo)",
+      "edition": "November 2009",
+      "source_url": "https://icrcndresourcecentre.org/wp-content/uploads/2022/03/San-Remo-ROE-Handbook.pdf",
+      "downloaded": "2026-05-05",
+      "licence": "Copyright IIHL. Reproduced for educational and research use, as permitted by the IIHL distribution policy."
+    },
+    {
+      "filename": "uk-jdp-0-01-1.txt",
+      "title": "JDP 0-01.1 UK Terminology Supplement to NATOTerm",
+      "publisher": "UK Ministry of Defence — Development, Concepts and Doctrine Centre (DCDC)",
+      "edition": "2025 Edition A, March 2025",
+      "source_url": "https://assets.publishing.service.gov.uk/media/67e67ba896745eff958c9fd2/JDP_0_01_1_UK_Terminology_NATOTerm.pdf",
+      "downloaded": "2026-05-05",
+      "licence": "UK Crown copyright reproduced under the Open Government Licence v3.0"
+    }
+  ]
+}
