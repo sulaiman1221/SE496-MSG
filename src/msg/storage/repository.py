@@ -74,7 +74,7 @@ class Repository:
                 image_bytes,
                 file_options={"content-type": "image/png"},
             )
-            return self._client.storage.from_(_IMAGE_BUCKET).get_public_url(filename)
+            return await self._client.storage.from_(_IMAGE_BUCKET).get_public_url(filename)
         except Exception as exc:
             _log.warning("scenario image upload failed: %s", exc)
             return None
