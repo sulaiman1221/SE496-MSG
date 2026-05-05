@@ -22,11 +22,11 @@ from msg.domain import (
 @pytest.fixture
 def settings() -> Settings:
     return Settings(
-        OPENAI_API_KEY="test-key",
+        OPENAI_API_KEY="sk-test-1234567890",
         OPENAI_MODEL="test-model",
         SUPABASE_URL="http://test.local",
-        SUPABASE_ANON_KEY="test-anon",
-        SUPABASE_SERVICE_KEY="test-service",
+        SUPABASE_ANON_KEY="anon-test-1234567890",
+        SUPABASE_SERVICE_KEY="service-test-1234567890",
     )
 
 

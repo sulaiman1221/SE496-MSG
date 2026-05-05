@@ -14,13 +14,13 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    openai_api_key: str = Field(alias="OPENAI_API_KEY")
+    openai_api_key: str = Field(min_length=10, alias="OPENAI_API_KEY")
     openai_model: str = Field(default="gpt-4o-2024-08-06", alias="OPENAI_MODEL")
     openai_image_model: str = Field(default="gpt-image-1", alias="OPENAI_IMAGE_MODEL")
 
-    supabase_url: str = Field(alias="SUPABASE_URL")
-    supabase_anon_key: str = Field(alias="SUPABASE_ANON_KEY")
-    supabase_service_key: str = Field(default="", alias="SUPABASE_SERVICE_KEY")
+    supabase_url: str = Field(min_length=10, alias="SUPABASE_URL")
+    supabase_anon_key: str = Field(min_length=10, alias="SUPABASE_ANON_KEY")
+    supabase_service_key: str = Field(min_length=10, alias="SUPABASE_SERVICE_KEY")
 
 
 @lru_cache(maxsize=1)
