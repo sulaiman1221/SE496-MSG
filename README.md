@@ -19,3 +19,10 @@ Stack
 Backend: Python , FastAPI, Pydantic, OpenAI SDK, Supabase
 Frontend: React, Vite, TypeScript, Tailwind CSS, Premium components from Framer
 Database: Supabase 
+
+
+
+ROLES: \n Related work/Market research/Dataset: Fayez\n
+Implementation/Testing: Abdullah/Sulaiman\n
+Security and data privacy: Saleh\n
+Ethical and social impact/Conclusion/Future work : Naif
