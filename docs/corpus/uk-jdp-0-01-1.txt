@@ -1,0 +1,2152 @@
+Joint Doctrine Publication 0-01.1
+UK Terminology
+Supplement to NATOTerm
+
+
+
+
+                                    2025, Edition A
+         Joint Doctrine Publication 0-01.1
+
+ UK Terminology Supplement
+       to NATOTerm
+Joint Doctrine Publication (JDP) 0-01.1, (2025, Edition A)
+                  dated March 2025,
+    is promulgated as directed by the Chiefs of Staff
+
+
+
+
+                    Head of Doctrine and Analysis
+
+
+
+
+                         Conditions of release
+
+ This publication is UK Ministry of Defence (MOD) Crown copyright.
+ Material and information contained in this publication may be reproduced,
+ stored in a retrieval system and transmitted for UK government and
+ MOD use only, except where authority for use by other organisations
+ or individuals has been authorised by a Patent Officer of the Defence
+ Intellectual Property Rights.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                 i
+     Authorisation
+     If you wish to quote our publications as reference material in other work,
+     you should confirm with our editors whether the particular publication and
+     amendment state remains authoritative. We welcome your comments on
+     factual accuracy or amendment proposals.
+
+     Email: UKStratCom-DFutures-Pubs@mod.gov.uk
+     Telephone/Skype: 0300 156 0407
+
+
+
+
+     Copyright
+     This publication is UK Ministry of Defence © Crown copyright (2025)
+     including all images (unless otherwise stated).
+
+     If contacting Defence Intellectual Property Rights for authority to release
+     outside of the UK government and MOD, the Patent Officer should be
+     informed of any third party copyright within the publication.
+
+     Crown copyright and Merchandise Licensing, Defence Intellectual
+     Property Rights, Central Legal Services, MOD Abbey Wood South,
+     Poplar 2 #2214, Bristol, BS34 8JH. Email: DIPR-CC@mod.gov.uk
+
+
+
+
+ii                                                   JDP 0-01.1 (2025, Edition A)
+Preface
+Rules of terminology
+
+1. Terminology forms a foundation for common understanding, and
+therefore builds interoperability. The 2012 direction by Chief of the
+Defence Staff and Permanent Under Secretary to ‘put NATO [North
+Atlantic Treaty Organization] at the heart of Defence’, has also been
+adhered to for terminology. Defence personnel should use agreed
+terminology whenever possible in their work. Aligning with NATO, there is
+a hierarchy of terms and definitions we should use, which is:
+
+    •   Concise Oxford English Dictionary;
+    •   NATOTerm; and then
+    •   Joint Doctrine Publication (JDP) 0-01.1, UK Terminology
+        Supplement to NATOTerm.
+
+2. Concise Oxford English Dictionary. This is the primary source
+publication for all terminology (even NATO, who also use Le Petit Robert for
+the French equivalent). Where a definition already exists in the dictionary
+and it is applicable to the context you are using it in, you should use it
+without modifying or enhancing it.1 If, however, the definition is not fit for
+purpose for your concept, then move on to the next stage – NATOTerm.
+
+3. NATOTerm. This is NATO’s terminology database.2 In the past NATO
+maintained many individual glossaries, but the creation of NATOTerm
+has enabled the incorporation of all glossaries into one database,
+including more than 20 specialist subject glossaries – for example,
+Allied Administrative Publication (AAP)-06, NATO Glossary of Terms and
+Definitions, AAP-39, NATO Handbook of Land Operations Terminology
+and Allied Medical Publication (AMedP)-13, NATO Glossary of Medical
+Terms and Definitions. NATOTerm now contains more than 20,000 terms
+
+1 Make sure you are using the most up-to-date version of the hard copy – not an
+online version. In 2025, the most current version is the 12th Edition, published 2011.
+2 Available via the NATO Standardization Office website under the ‘Terminology’ tab:
+https://nso.nato.int/nso/home/main/home.
+
+JDP 0-01.1 (2025, Edition A)                                                             iii
+     and definitions. Be aware that entries in NATOTerm will be in one of four
+     categories, each colour coded.
+
+             NATO Agreed (green diamond). These definitions have been
+             through the NATO Terminology Programme and have been NATO
+             Agreed by a tasking authority. These terms and definitions should
+             be used wherever possible instead of UK equivalents.
+
+             NATO Adopted (blue diamond). These definitions have been
+             produced by another body or organisation and they have
+             been reproduced faithfully in NATOTerm. They tend to be more
+             technical or specialist definitions. They may include definitions
+             from the United Nations or the International Organization for
+             Standardization, amongst others.
+
+             Not NATO Agreed (yellow diamond). These definitions have
+             often been used in NATO publications but they have not been
+             through the formal approval process. Some of these terms have
+             been developed by sub-group subject matter experts and so,
+             whilst valid in terms of content, they have not had the rigour of
+             the NATO Terminology Office checking them for consistency,
+             form and conformity to terminological standards. You can use
+             these definitions, but use them with caution.
+
+             NATO Cancelled (red diamond). These definitions are no longer
+             valid for use, but they are kept in the database for legacy
+             purposes. They can be useful when researching terminology, but
+             be careful not to use them.
+
+     4. Joint Doctrine Publication 0-01.1, UK Terminology Supplement
+     to NATOTerm. If the Concise Oxford English Dictionary and NATOTerm
+     do not have a definition that is fit for purpose, then check this JDP.
+     This publication incorporates joint and single-Service terminology. To
+     ensure that terminology is developed and agreed by the whole doctrine
+     community and to improve coherency, a Joint Doctrine Steering
+     Committee (JDSC) Terminology Panel has been established, with
+     representatives from across the single Services and commands, to
+     discuss UK and NATO terminology before it is formally agreed.
+
+iv                                                 JDP 0-01.1 (2025, Edition A)
+Current edition changes
+
+Term                    Comment
+
+                        Updated in line with AP 3002, Edition 5 for
+bare base
+                        consistency.
+
+command, control,
+communications,
+                        Addition of term and abbreviation only.
+computers, cyber and
+information (C5i)
+
+                        Updated in line with the new edition of AJP-3.3.5
+coordinated fire line
+                        (Edition C).
+
+                        Cancelled because the Concise Oxford English
+effects                 Dictionary definition is sufficient: a change which is a
+                        result or consequence of an action or other cause.
+
+                        Cancelled now there is a NATO Agreed entry in
+interrogation
+                        NATOTerm.
+joint airspace          Cancelled now there is a NATO Agreed entry in
+coordination centre     NATOTerm.
+                        Cancelled now there is a NATO Agreed entry in
+readiness
+                        NATOTerm.
+
+                        Addition of term and definition following consultation
+seabed warfare          with the Joint Doctrine Steering Committee
+                        Terminology Panel.
+
+                        Updated in line with the new edition of AJP-3.3.5
+weapons-free zone
+                        (Edition C).
+
+
+
+Proposing new or amending terminology
+
+5. If you have new terminology you would like to propose to be added to
+this publication, or amendments you feel should be made, please contact
+Editor 2. When new terminology is proposed, it is the JDSC Terminology
+Panel that ensures the term and definition are correct from a content point
+of view, as well as being terminologically correct.
+
+
+JDP 0-01.1 (2025, Edition A)                                                       v
+     6. Anyone can submit a proposal for UK terminology using the UK
+     terminology tracking form (TTF) template and it should be sent to
+     Editor 2 to process. The Writers’ Handbook, Chapter 3 contains further
+     information on how to develop terminology. Contact Editor 2 for advice if
+     you have any queries.
+
+     Acronyms and abbreviations
+
+     7. NATOTerm gives a full and comprehensive list of all NATO Agreed
+     acronyms and abbreviations. Where the UK has formally agreed the use
+     of an acronym or abbreviation, it will be shown in JDP 0-01.1 as part of
+     the terminological entry.
+
+     Contact details
+
+     8. If you have any other queries about terminology you think we can help
+     with, please contact Editor 2.
+
+         Email: UKStratCom-DFutures-Pubs@mod.gov.uk
+
+
+
+
+vi                                                 JDP 0-01.1 (2025, Edition A)
+                                                                                  A
+
+
+
+
+A
+air despatch
+The specialist airborne delivery method for dropping equipment and
+supplies from fixed and rotary wing aircraft to the land and maritime
+environments.
+(JDP 0-01.1)
+
+air manoeuvre
+The movement of land forces by air to positions of advantage.
+(JDN 1/20)
+
+air power
+The ability to use air capabilities in and from the air, to influence the
+behaviour of actors and the course of events.
+(JDP 0-30, 3rd Edition)
+
+airspace coordination area
+ACA
+A restricted area or route of travel specified for use by friendly aircraft and
+established for the purpose of preventing friendly aircraft from being fired
+on by friendly forces.
+(ATP-3.3.5.1)
+
+antisurface warfare
+ASUW
+The actions necessary to detect, identify and counter an enemy’s surface
+capability.
+(RN Fighting Instruction 1.1)
+
+applied intelligence
+Intelligence which is tailored to provide direct support to the
+decision‑making process.
+(JDP 2-00, 4th Edition)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                          1
+    A
+
+
+
+        armed escort
+        A security measure that serves as a visible deterrent to a potential attack
+        and, if necessary, acts in self-defence against an attack.
+        (TFSO Part 3)
+
+        armoured cavalry
+        Regiments that conduct reconnaissance tasks from armoured platforms,
+        operating in the formation reconnaissance role at brigade, division or
+        corps level.
+        Note: Being armoured, they have the mobility and firepower to also make
+        them suitable for some security tasks, for example, rear area security and
+        screening.
+        (Corps and Divisional Tactics, Land Warfare Centre)
+
+        audience-centric approach
+        The understanding, planning, execution, and monitoring of activity to
+        influence audiences’ attitudes, beliefs or behaviours, to achieve desired
+        outcomes.
+        (AJP-10, UK national elements)
+
+
+
+
+2                                                      JDP 0-01.1 (2025, Edition A)
+                                                                              B
+
+
+
+
+B
+balanced fleet
+A naval force that can be generated and sustained with a range of
+capabilities to provide the national government with military options that
+ensure national survival and enable power projection.
+(RN Fighting Instruction 1.1)
+
+bare base
+A base providing less than 25% of the required facilities, notably aircraft
+operating surfaces, airfield lighting, and access to domestic electrical
+power and water supply.
+(AP 3002, Edition 5)
+
+baseline audience analysis
+BAA
+The foundational level of audience analysis to support planning and inform
+mission and target audience analysis.
+(AJP-10.1, UK national elements)
+
+battlespace spectrum management
+BSM
+The planning, coordination and management of the electromagnetic
+spectrum through operational, engineering and administrative procedures;
+it enables military electronic systems to perform their functions within
+intended environments without causing or suffering harmful interference.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                      3
+    B
+
+
+
+
+4       JDP 0-01.1 (2025, Edition A)
+                                                                             C
+
+
+
+
+C
+C5i
+command, control, communications, computers, cyber and
+information
+(AJP-6, UK national elements)
+
+campaign authority
+The authority established by international forces, agencies and
+organisations within a given situation.
+(TFSO Part 1)
+
+campaign design
+The development and refinement of the commander’s (and staff’s) ideas
+to provide detailed, executable and successful plan.
+(JDP 0-01.1)
+
+campaign plan
+The actionable expression of a joint force commander’s intent, articulated
+to subordinate commanders through plans, directives and orders.
+(JDP 01)
+
+capability and capacity adviser
+CCA
+A suitably qualified and experienced person within a selected area,
+deployed for a period of 6-12 months to support the development of
+host-nation capacity building and/or support the introduction of a new
+capability.
+(JDSC Terminology Panel agreed)
+
+captured children
+Captured persons aged 14 and under.
+(JDP 1-10, 4th Edition)
+
+captured juveniles
+Captured persons aged 15, 16 or 17.
+(JDP 1-10, 4th Edition)
+
+JDP 0-01.1 (2025, Edition A)                                                     5
+    C
+
+
+
+        captured persons
+        CPERS
+        The generic term given to all individuals who are captured and held by UK
+        Armed Forces on operations overseas, whether they be prisoners of war,
+        protected persons as defined in Geneva Convention IV, or detainees or
+        security internees, whether or not the Geneva Conventions apply.
+        (JDP 1-10, 4th Edition)
+
+        captured persons facilities
+        Any facility where captured persons are held in captivity, including unit
+        holding areas, collection points and captured persons holding facilities.
+        (JDP 1-10, 4th Edition)
+
+        captured persons holding facility
+        A facility which is of an established nature and designed to hold larger
+        numbers of captured persons for longer durations.
+        Note: It does not include unit holding areas or collecting points.
+        (JDP 1-10, 4th Edition)
+
+        carrier strike
+        An attack against targets ashore, or fixed locations at sea, using carrier
+        launched fixed wing aircraft and air-delivered weapons.
+        (RN Fighting Instruction 1.1)
+
+        carrier strike group
+        CSG
+        A task group based around an aircraft carrier with associated strike,
+        intelligence, surveillance, target acquisition and reconnaissance, and force
+        protection capabilities. ​
+        Note: It may include some submarine or surface combatant-based
+        precision strike or Commando raiding capabilities.
+        (JDSC Terminology Panel agreed)
+
+        chemical exploitation
+        CHEMEX
+        Provides chemical intelligence on, improvised weapons and unknown
+        substances by processing, examining and analysing samples of materials.
+        (JDP 2-00, 4th Edition)
+
+6                                                      JDP 0-01.1 (2025, Edition A)
+                                                                             C
+
+
+
+child
+A person below the age of 18, unless the laws of a particular country set
+the legal age for adulthood younger.
+(TFSO Part 4 (UN Convention on the Rights of a Child))
+
+child soldiers
+Children who have been conscripted or enlisted into armed forces or
+groups or who have been used to participate actively in hostilities.
+(TFSO Part 1 (Law of Armed Conflict))
+
+children and armed conflict
+Collective reference to the impact on children of armed conflict.
+(United Nations Security Council Resolution)
+
+civil affairs
+CA
+Those activities of a commander that establish, maintain, influence, or
+exploit relations between military forces and civil authorities.
+(United States definition, Joint Publication 1-02)
+
+close reconnaissance
+CR
+Troops and platoons held as organic close reconnaissance forces at
+battlegroup level.
+Notes: 1. They can be light of armoured with platforms that complement
+the parent battlegroup.
+2. Close reconnaissance can be tasked in support of formation-level
+intelligence requirements.
+(Ground Reconnaissance Tactics Handbook)
+
+combat enhancement training
+CET
+Activity required to ensure all force elements are worked up mission ready
+capabilities.
+Note: It will include WADER training for amphibious forces and deck
+certification training for aircraft embarkation onboard the carrier and is
+usually combined with force integration training.
+(RN Fighting Instruction 1.1)
+
+JDP 0-01.1 (2025, Edition A)                                                     7
+    C
+
+
+
+        combat supplies
+        The essential commodities for resupply without which an operation
+        cannot be launched or sustained.
+        (Land forces working definition)
+
+        combatant
+        A member of the armed forces of a party to the armed conflict (other than
+        medical personnel and chaplains) who has the right to participate directly
+        in hostilities.
+        Note: This category includes irregular forces who are under responsible
+        command and subject to internal military discipline, carry their arms
+        openly and otherwise distinguish themselves from the civilian population.
+        (JDP 1-10, 4th Edition)
+
+        combined air operations centre
+        CAOC
+        An organisation which plans and directs the conduct of multinational air
+        operations.
+        (JDP 0-01.1)
+
+        combined joint task force
+        CJTF
+        A multinational (combined) and joint (maritime, land and air forces)
+        grouping.
+        (Derived from RN Fighting Instruction 1.1)
+
+        commodity
+        Stores are categorised by need rather than type of store so that the
+        management and distribution of resources can be targeted more
+        efficiently.
+        Note: Commodities are grouped into: operational items (Category O);
+        training items (Category T); and the remainder (Category R).
+        (DN 12/02 Sustainment)
+
+
+
+
+8                                                      JDP 0-01.1 (2025, Edition A)
+                                                                              C
+
+
+
+communications security
+COMSEC
+The protection resulting from the application of cryptographic,
+transmission, emission and physical security measures to deny
+unauthorised persons any information of value which might be derived
+from the study of all means of communication.
+(JDP 0-01.1)
+
+composite air operations
+COMAO
+Air operations interrelated and/or limited in both timescale and space
+where units differing in type and/or role are put under a single package
+commander to achieve a common, specific objective.
+(JDP 0-01.1)
+
+composite warfare commander
+CWC
+The officer to whom the officer in tactical command has assigned all
+authority and delegated functions for the overall direction and control of
+the defence of the force.
+Note: Principal warfare commanders are subordinate to the composite
+warfare commander/officer in tactical command.
+(RN Fighting Instruction 1.1)
+
+computer network defence
+CND
+Actions taken to protect against disruption, denial, degradation or
+destruction of information resident in computers and computer networks
+or the computers and networks themselves.
+(JDP 6-00, 3rd Edition, Change 1)
+
+condition monitoring
+The collection and analysis of data from equipment to ensure that it
+retains the integrity of the design and can continue to be operated safely.
+(Introductory Guide to Condition Based Maintenance D Sp LEIP/CBM)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                      9
+ C
+
+
+
+     configured load
+     A single or multi-commodity load of supplies built to the anticipated or
+     actual needs of a consuming unit.
+     (AC 71943 US-UK Interoperability Guide)
+
+     conflict sensitivity
+     Acting with the understanding that any initiative conducted in a
+     conflict‑affected environment will interact with that conflict and that such
+     interaction will have consequences that may have positive or negative
+     effects.
+     (TFSO Part 1)
+
+     consignment tracking
+     CT
+     The process of providing visibility of materiel as it is moved through the
+     Defence support chain.
+     (JDP 0-01.1)
+
+     contingents
+     Force elements of one nation grouped under one or more multinational
+     component commanders subordinate to the joint task force commander.
+     (JDP 01)
+
+     contractor support to operations
+     CSO
+     All support provided to UK military operations by non-regular forces.
+     Note: It includes sponsored reserves, contractors on deployed operations
+     and private military and security companies.
+     (JDP 0-01.1)
+
+     contractors on deployed operations
+     CONDO
+     Contractor logistic support where in-service equipment is maintained
+     under contract with the equipment provider, and the use of contractors
+     on operations engaged through the Permanent Joint Headquarters
+     Operational Support Capability Contract.
+     (JDP 0-01.1)
+
+
+10                                                    JDP 0-01.1 (2025, Edition A)
+                                                                               C
+
+
+
+control of the air
+Freedom, over a given period of time, to use a volume of airspace for our
+own purposes while, if necessary, denying or constraining its use by an
+opponent.
+(JDP 0-30, 3rd Edition)
+
+coordinated fire line
+CFL
+A line beyond which conventional, indirect, surface fire support means
+may fire at any time within the boundaries of the establishing headquarters
+without additional coordination.
+(AJP-3.3.5, Edition C)
+
+counter-criminality
+Action focused on preventing organised criminal groups from escalating
+their activities to the point where they become a threat.
+(TFSO Part 1)
+
+Coupling Bridge
+The series of activities through which force elements, equipment and
+materiel are delivered from the strategic base to the joint operations area,
+specifically from air and sea ports of embarkation to air and sea ports
+of disembarkation, and returned, in accordance with the joint task force
+commander’s priorities. It involves all strategic assets, infrastructure and
+facilities required.
+(JDP 4-00, 4th Edition)
+
+covert operation
+A concealed operation, which in the event of detection would ultimately be
+attributable.
+(AJP-3.5, UK national elements)
+Note: UK definition retained even though there is a NATO Agreed definition.
+
+crisis response planning
+Planning, often at short notice, to determine an appropriate military
+response to a current or imminent crisis.
+(JDP 01)
+
+
+JDP 0-01.1 (2025, Edition A)                                                   11
+ C
+
+
+
+     cultural capability
+     Using military cultural specialists to aid understanding.
+     (JDP 0-01.1)
+
+     cyber and electromagnetic activities
+     CEMA
+     The synchronisation and coordination of offensive, defensive, inform
+     and enabling activities, across the electromagnetic environment and
+     cyberspace.
+     (JDN 1/18 (Cyber and Electromagnetic Activities Capability Integration
+     Group (CEMA CIG) endorsed definition))
+
+     cyber and electromagnetic domain
+     A domain comprising capabilities which enable activities that maintain
+     freedom of action by creating effects in and through cyberspace and
+     the electromagnetic spectrum.
+     (JDP 0-50, 2nd Edition)
+
+     cyber and electromagnetic power
+     The ability to use cyber and electromagnetic capabilities in and
+     through the cyberspace and electromagnetic environments to
+     influence the behaviour of actors and the course of events.
+     (JDP 0-50, 2nd Edition)
+
+     cyber mission assurance
+     CMA
+     A process to protect or ensure the continued function of capabilities
+     and assets that are critical to the execution of a mission.
+     (JDP 0-50, 2nd Edition)
+
+     cyber operation
+     The planning and synchronisation of activities in and through cyberspace
+     to enable freedom of manoeuvre and to achieve military objectives.
+     (JDP 0-50, 2nd Edition)
+
+
+
+
+12                                                   JDP 0-01.1 (2025, Edition A)
+                                                                      C
+
+
+
+cyberspace
+The global environment consisting of all interconnected
+communication, information technology and other electronic systems,
+networks and their data, including those which are separated or
+independent, which process, store or transmit data.
+(JDP 0-50, 2nd Edition)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                          13
+ C
+
+
+
+
+14   JDP 0-01.1 (2025, Edition A)
+                                                                               D
+
+
+
+
+D
+Defence engagement
+The use of our people and assets to prevent conflict, build stability and
+gain influence.
+(UK’s International Defence Engagement Strategy)
+
+Defence strategic communication
+Defence StratCom
+Advancing national interests by using Defence as a means of communication
+to influence the attitudes, beliefs and behaviours of audiences.
+(AJP-10, UK national elements)
+
+Defence Support
+The full range of activities that fall within logistics, engineering and
+equipment support collectively delivered by MOD Head Office, front line
+commands and other support enabling organisations.
+(CDLS Support Strategy)
+
+Defence Support Enterprise
+DSE
+The overarching functions that direct the strategic conceptual ambition
+for Defence Support and the Defence Support Network, setting common
+policy and performance standards, shaping the development and
+delivery of capabilities and interfacing with the industrial and stakeholder
+landscape.
+(CDLS Support Strategy)
+
+Defence Support Network
+DSN
+The framework from which the UK Armed Forces are prepared, deployed,
+sustained and recovered/redeployed.
+Note: It includes a network of UK and overseas interdependent
+infrastructure nodes and the Ministry of Defence, industry and allies
+connectors (for example, vehicles, aircraft, ships, rail, and logistic
+information services) that link them.
+(CDLS Support Strategy)
+
+JDP 0-01.1 (2025, Edition A)                                                   15
+ D
+
+
+
+     defensive cyber operation
+     DCO
+     Active and passive measures taken to prevent, nullify or reduce the
+     effectiveness of adversary actions to preserve our freedom of action in
+     or through cyberspace.
+     (JDP 0-50, 2nd Edition)
+
+     detailed deployment plan
+     DDP
+     The plan encompasses all orders and directions that allocate strategic lift
+     assets and detail the embarkation of personnel and cargoes to mount an
+     operation.
+     (JDP 0-01.1)
+
+     detainee
+     A person who has been detained because they have committed, or is
+     suspected of having committed, a criminal offence against the laws of the
+     territory in which they have been captured, or against UK Armed Forces,
+     or an offence against the law applied in an occupied territory.
+     (JDP 1-10, 4th Edition)
+
+     disaster relief
+     The organised response to alleviate the results of a catastrophe.
+     Note: The aims are to save life and relieve suffering, limit damage and
+     restore essential services to a level that enables local authorities to cope.
+     (JDP 3-52, 3rd Edition)
+
+     discreet operation
+     An inconspicuous operation unequivocally attributable or declared.
+     (AJP-3.5, UK national elements)
+
+
+
+
+16                                                   JDP 0-01.1 (2025, Edition A)
+                                                                                  D
+
+
+
+discrete operation
+An operation that is limited in size, often politically sensitive, conducted in
+support of other government departments.
+Notes: 1. Discrete operations are conducted under operational command
+of Director Special Forces, in support of political and military strategic
+objectives.
+2. ‘Discrete’ in this sense should not be confused with ‘discreet’ which
+is not specifically defined for special forces operations, but retains its
+Concise Oxford English Dictionary definition of ‘unobtrusive’.
+(JDP 08)
+
+dominant user
+The service or multinational partner who is the principle consumer of
+a particular common-user logistic supply or service within a joint or
+multinational operation.
+Note: The dominant user will normally act as the lead Service to provide
+this particular common-user logistic supply or service to other Service
+components, multinational partners, other governmental agencies, or
+non-governmental agencies as directed by the combatant commander.
+(AC 71943 US-UK Interoperability Guide)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                      17
+ D
+
+
+
+
+18   JDP 0-01.1 (2025, Edition A)
+                                                                                E
+
+
+
+
+E
+electromagnetic activities
+EMA
+All offensive, defensive, inform and communication activities that shape
+or exploit the electromagnetic environment and the enabling activities
+that support them.
+(JDP 0-50, 2nd Edition)
+
+engagement area
+EA
+An area where the commander intends to contain and destroy an enemy
+force with the massed fires of all available weapons.
+(ATP-3.2.1.1, study draft 1)
+
+engineering support
+The activity to ensure performance and safety margins are managed by
+influencing equipment design to optimise support solutions and manage
+through life design, as well as evaluating, testing and monitoring of
+components, equipment, systems or platforms.
+(CDLS Support Strategy)
+
+equipment collection point
+An area of ground where first-line units and light aid detachments
+equipment casualties are collected before being backloaded by first-line and
+second‑line recovery resources.
+Note: Equipment collection points are normally open and closed by first-line
+units.
+(All Arms Equipment Recovery Manual)
+
+equipment support
+The activity to keep the required quantity of operational equipment available
+to the force by through-life provision, management and execution of
+maintenance, repair, replacement and control of components crucial to the
+equipment’s material state and performance.
+Note: It is a significant subset of engineering support.
+(CDLS Support Strategy)
+
+JDP 0-01.1 (2025, Edition A)                                                    19
+ E
+
+
+
+     evacuation handling centre
+     EHC
+     A temporary secure location free from the threat of destabilising
+     influences, where eligible persons can be received and processed by
+     Foreign, Commonwealth and Development Office/Border Force officials
+     to establish their eligibility for evacuation.
+     (JDP 3-51, 3rd Edition, Version 2)
+
+     evacuation point
+     EvPt
+     Secure sites with facilities permitting the safe ingress and egress
+     for military transport; it is here that eligible persons arrive for military
+     extraction to a temporary safe location or a place of safety.
+     (JDP 0-01.1)
+
+     expeditionary strike force
+     ESF
+     A carrier strike group plus a littoral strike group or littoral response group.
+     Note: It will be called ‘expeditionary strike force heavy’ if it combined with
+     a littoral strike group and ‘expeditionary strike force light’ if combined with
+     a littoral response group. The carrier strike component of an expeditionary
+     strike force may be called an expeditionary strike force (carrier).
+     (JDSC Terminology Panel agreed)
+
+
+
+
+20                                                      JDP 0-01.1 (2025, Edition A)
+                                                                               F
+
+
+
+
+F
+field services
+Essential services to enhance a soldier’s quality of life during operations.
+(AC 71943 US-UK Interoperability Guide)
+
+financial intelligence
+FININT
+The gathering of information about the financial affairs of entities of
+interest, to understand their nature and capabilities, and predict their
+intentions.
+(JDP 0-01.1)
+
+fiscal law
+Domestic statutes and regulations to funding military operations, and
+supporting non-federal agencies and organisations.
+(AC 71943 US-UK Interoperability Guide)
+
+fleet-in-being
+Maintaining one’s own forces to limit, by their latent threat, the options
+available to the enemy.
+(RN Fighting Instruction 1.1)
+
+force generation
+The process of providing suitably trained and equipped forces, and their
+means of deployment, recovery and sustainment to meet all current and
+potential future tasks, within required readiness and preparation times.
+(JDP 4-00, 4th Edition)
+
+force integration training
+FIT
+Training to improve the ability of units within a force to work together.
+(RN Fighting Instruction 1.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                   21
+ F
+
+
+
+     forward line of enemy troops
+     FLET
+     A line which indicates the most forward positions of enemy troops in any
+     kind of military operation at a specific time.
+     (PEHB 2018)
+
+     forward mounting base
+     FMB
+     A base (also deployed operating base) established within the operational
+     area, to support operations at forward operating bases.
+     Note: A forward mounting base will be resourced to a greater level than
+     a forward operating base, including command and control, logistics and
+     administration support elements.
+     (JDP 0-01.1 (derived from JDP 4-00, 4th Edition))
+
+     fratricide
+     The accidental death or injury which occurs when friendly forces engage
+     their own forces believing either them, or their location, to be an enemy
+     target.
+     (JDP 0-01.1)
+
+     fuel consumption unit
+     FCU
+     The fuel required for a unit or formation to move 100km non-tactically on
+     flat roads in a temperate climate.
+     Notes: 1. This figure is calculated against each units’ vehicle holdings by
+     type and quantity.
+     2. Applied values are obtained by multiplying the fuel consumption unit by
+     designated factors to reflect the effect upon consumption of the type of
+     combat, the terrain and climate.
+     (Land forces working definition)
+
+     full spectrum targeting
+     A holistic approach to targeting, reviewing all targets together and
+     apportioning action (lethal and non-lethal) in accordance with the
+     campaign information strategy and desired behavioural objectives.
+     (JDP 0-01.1)
+
+
+22                                                  JDP 0-01.1 (2025, Edition A)
+                                                                              G
+
+
+
+
+G
+geospatial intelligence
+GEOINT
+Intelligence derived from the exploitation and analysis of geospatial
+information, imagery and other data to describe, assess or visually depict
+geographically referenced activities and features.
+Note: Geospatial intelligence includes imagery intelligence and
+the production or analysis of geospatial information; it underpins
+understanding, planning, navigation and targeting.
+(JDP 2-00, 4th Edition)
+Note: UK definition retained even though there is a NATO Agreed definition.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                  23
+ G
+
+
+
+
+24   JDP 0-01.1 (2025, Edition A)
+                                                                              H
+
+
+
+
+H
+horizon scanning
+The systematic search across the global environment for potential threats,
+hazards and opportunities.
+(JDP 0-01.1)
+
+host-nation support arrangement
+HNSA
+Those documents which detail the support, political, legal and/or financial
+arrangements agreed upon by national and NATO authorities and which
+are necessary to provide host-nation support to operations and exercises.
+(AJP-4.3(A), JDP 4-00 and NATO MC 334/2)
+
+human security approach
+An audience-centric way to plan that takes account of the human
+environment and security of individuals and communities.
+Note: This approach recognises the conditions that the population
+experience through exploring the vulnerabilities or motivations of
+individuals and communities and how this contributes to conflict and
+instability.
+(TFSO Part 1 (JSP 1325))
+
+human terrain
+Characterising cultural, anthropological and ethnographic information
+about the human population and interactions within the joint operations
+area.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                  25
+ H
+
+
+
+
+26   JDP 0-01.1 (2025, Edition A)
+                                                                           I
+
+
+
+
+I
+implementing arrangement
+Follow-on documents which establish the commitment between the
+participants concerning the provision of host nation support.
+Note: Implementing arrangements include the most detailed information
+on the required and offered support, the site specific procedures to
+implement the support arrangements and the reimbursement details.
+(AJP-4.3(A))
+
+indicators and warnings
+I&W
+Intelligence activities to detect and report time-sensitive information
+on developments that could threaten the multinational force, including
+forewarning of adversaries’ intentions or actions, insurgency, terrorism
+and other similar events.
+(RN Fighting Instruction 1.1)
+
+information exploitation
+The use of information to gain advantage and improve situational
+awareness to enable effective planning, decision-making, and
+coordination of those activities required to realise effects.
+(JDP 6-00, 3rd Edition, Change 1)
+
+intelligence mission data
+IMD
+A coherent, machine-readable, intelligence-derived data set required to
+deliver the designed operational capability of platforms, weapons and
+systems.
+(JDP 0-50, 2nd Edition)
+
+intergovernmental organisation
+IGO
+An organisation created by a formal agreement between two or more
+governments on a global, regional, or functional basis to protect and
+promote national interests shared by member states.
+(AC 71943 US-UK Interoperability Guide)
+
+JDP 0-01.1 (2025, Edition A)                                               27
+ I
+
+
+
+     intermediate staging base
+     ISB
+     A tailorable, temporary location used for staging forces, sustainment and/
+     or extraction into and out of an operational area.
+     (AC 71943 US-UK Interoperability Guide)
+
+     internee
+     A civilian who is interned for imperative reasons of security.
+     (JDP 1-10, 4th Edition)
+
+
+
+
+28                                                   JDP 0-01.1 (2025, Edition A)
+                                                                                J
+
+
+
+
+J
+joint contingency plan
+JCP
+Deliberate contingency plans prepared for a situation where it is assessed
+that there is a particular likelihood of an operation being mounted, or the
+anticipated warning time is reduced.
+Note: In addition to the planning data contained in joint planning guides,
+joint contingency plans contain specific information on military capabilities
+required and deployment options, including readiness states where
+applicable.
+(JDP 3-51, 3rd Edition)
+
+joint force
+A force composed of significant elements of two or more Services
+operating under a single commander authorised to exercise operational
+command or control.
+(AJP-3.2)
+
+joint logistic enablers
+Those force elements and capabilities that deliver the joint logistic effects
+necessary for: the successful mounting, deployment, reception, staging
+and onward movement and integration of a force; the sustainment,
+recovery and redeployment of a force across the Defence Support
+Network and within theatre; and the opening, operation and closing of
+ports of disembarkation/embarkation.
+(JDP 0-01.1 (derived from JDP 4-00, 4th Edition))
+
+joint prioritised target list
+JPTL
+A list of targets approved and maintained by the joint force commander,
+and which represents a formal order to component commanders to
+engage targets.
+(AJP-3.9, Edition B)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                    29
+ J
+
+
+
+     joint sea basing
+     Use of the sea as a base within joint operations in order to contribute to
+     an optimum footprint ashore.
+     (JDP 4-00, 4th Edition)
+
+
+
+
+30                                                  JDP 0-01.1 (2025, Edition A)
+                                                                          K
+
+
+
+
+K
+key leader engagement
+KLE
+Process to enable and strengthen the development of a relationship, and
+to influence behaviour through engagement.
+(DN 17/05 Information Activities 2017)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                              31
+ K
+
+
+
+
+32   JDP 0-01.1 (2025, Edition A)
+                                                                               L
+
+
+
+
+L
+land power
+The ability of land forces to exert decisive control and influence on actors
+and the course of events.
+(JDP 0-20, 6th Edition)
+
+law of armed conflict
+LOAC
+Those treaties, conventions, rules, regulations and customary international
+law that govern the conduct of hostilities and the protection of persons
+in enemy hands during an armed conflict and/or during a military
+occupation.
+Note: It is sometimes referred to as international humanitarian law.
+(JDP 1-10, 4th Edition)
+
+light cavalry
+Forces who conduct reconnaissance from lightly armoured wheeled
+platforms.
+Notes: 1. They may be employed in the formation reconnaissance role at
+brigade, division or corps level.
+2. Reconnaissance by stealth is preferred by this lightly armed, but highly
+mobile and easily deployed capability.
+(Corps and Divisional Tactics)
+
+line of persuasion
+An argument referring to an essential psychological factor which will
+influence the target audience.
+(JDP 0-01.1)
+
+littoral
+Land that can be directly affected from the sea, and sea that can be
+directly affected from the land.
+(RN Fighting Instruction 1.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                   33
+ L
+
+
+
+     littoral region
+     Those land areas (and their adjacent sea areas and associated air space)
+     that are susceptible to engagement and influence from the sea.
+     (JDP 0-10, 5th Edition)
+
+     littoral response group
+     LRG​
+     Amphibious shipping and an embarked force of at least a Commando
+     vanguard strike company and enablers.​
+     Note: There will be Littoral Response Group (North) and Littoral Response
+     Group (South).
+     (JDSC Terminology Panel agreed)
+
+     littoral strike group
+     LSG
+     The combined Littoral Response Group (North) and Littoral Response
+     Group (South), along with extensive joint and Royal Navy enablers.
+     (JDSC Terminology Panel agreed)
+
+     logistic footprint
+     The impact of logistic activity in the joint operations area. It identifies the
+     utilisation of real estate, host-nation support and resources, including
+     personnel, equipment, infrastructure and supplies that logistic activity in
+     support of an operation will require.
+     Note: It includes those resources that are deployed along lines of
+     communication, where they are required for logistic activity and any
+     liability for additional force protection assets.
+     (JDSC Terminology Panel agreed)
+
+     logistic functional control
+     The authority to direct the method and processes employed to conduct
+     logistic functions in order to ensure commonality and efficient use of
+     resources.
+     (JDP 4-00, 4th Edition)
+
+
+
+
+34                                                     JDP 0-01.1 (2025, Edition A)
+                                                                                   L
+
+
+
+logistic planning team
+LPT
+A Permanent Joint Headquarters J1/J4 team that is formed at the outset
+of planning and meets as necessary either physically, through video
+teleconference or virtually.
+Note: It acts as the vehicle for coordinating all logistic planning activity for
+contingencies or operations, depending on the scale of the operation.
+(JDP 4-00, 4th Edition)
+
+logistic support
+The activity to sustain forces through the provision of materiel.
+Note: Logistic support includes acquisition, control and distribution;
+provision of movement personnel and materiel and the provision of logistic
+support services.
+(CDLS Support Strategy)
+
+long lead item
+Materials or component parts of an item of materiel which, because of the
+time taken to procure them, need to be ordered in advance of the main
+item in order to meet a stated delivery date for the main item.
+(AFM Sustainment)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                       35
+ L
+
+
+
+
+36   JDP 0-01.1 (2025, Edition A)
+                                                                                M
+
+
+
+
+M
+maritime power
+The ability to apply maritime military capabilities at and from the sea to
+influence the behaviour of actors and the course of events.
+(JDP 0-10, 5th Edition)
+
+materiel and personnel exploitation
+MPE
+Exploiting materiel and personnel by scientific, technical and specialist
+intelligence activities.
+(JDP 2-00, 4th Edition)
+
+mean value between failure
+MVBF
+A statistically derived figure based on the number of vehicle failures for a
+given usage.
+Note: The figures do not account for failures through enemy action or
+those repaired without demanding equipment support materiel.
+(DN 15/12 Land Equipment)
+
+media operations
+Media Ops
+The military information activity that offers accurate and timely information
+to nominated audiences through the media, in order to create the desired
+communications effect and build consent for UK national objectives, while
+maintaining operations security and personal security.
+(AJP-10, UK national elements)
+
+media release authority
+That authority vested in a commander to engage directly with the media
+without reference to higher authority.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                    37
+ M
+
+
+
+     memorandum of understanding
+     MoU
+     A written overarching bilateral or multilateral agreed document
+     which implies an intent or responsibility to support allied forces and
+     organisations.
+     (JDP 4-00, 4th Edition)
+
+     military aid to the civil authorities
+     MACA
+     Military operations conducted in the UK and Crown Dependencies
+     involving the employment of Defence resources as requested by a
+     government department or civil authority.
+     Note: These operations are subject to Defence ministerial approval,
+     either prior to, or at the time of the event, except in immediate risk of life
+     situations.
+     (JDP 02, 4th Edition)
+
+     mission audience analysis
+     MAA
+     The focused understanding of target audiences in support of a mission or
+     task to create the desired planning effect.
+     (AJP-10.1, UK national elements)
+
+     mission command
+     A philosophy of command that seeks to convey understanding to
+     subordinates about the intentions of the higher commander and their
+     place within the plan, enabling them to carry out missions with the
+     maximum freedom of action and appropriate resources.
+     (JDP 0-01.1)
+
+     monitoring and evaluation
+     A means of tracking progress and assessing impact of activities by
+     gathering data against agreed indicators.
+     (TFSO Part 4)
+
+
+
+
+38                                                     JDP 0-01.1 (2025, Edition A)
+                                                                               M
+
+
+
+movement control point
+A checkpoint normally deployed in transit camps or concentration areas
+which is responsible for:
+a. the assembling of troops, vehicles and equipment into loads;
+b. supervising the preparation and documentation of such loads for air
+transportation;
+c. the control of movement from the transit camp or concentration area to
+the airfield.
+(AFM Sustainment)
+
+multinational integrated logistic support
+Two or more nations agree to provide logistic assets to a multinational
+force under operational control of a multinational force commander for the
+logistic support of a multinational force.
+(AC 71943 US-UK Interoperability Guide)
+
+multinational integrated logistic support unit
+An organisation resulting when two or more nations agree to provide
+logistic assets to a multinational force under operational control of a
+multinational force commander for the logistic support of a multinational
+force.
+(AC 71943 US-UK Interoperability Guide)
+
+multinational logistics
+Any coordinated logistic activity involving two or more nations supporting
+a multinational force conducting military operations under the auspices of
+an alliance or coalition.
+Note: This includes those conducted under United Nations mandate.
+(AC 71943 US-UK Interoperability Guide)
+
+multiple-source intelligence
+The deliberate application of two or more discrete but supporting
+intelligence disciplines, seeking to improve the quality of the intelligence
+product.
+Note: Supporting intelligence disciplines include, for example, geospatial
+intelligence, human intelligence and signals intelligence.
+(JDP 2-00, 4th Edition)
+
+
+JDP 0-01.1 (2025, Edition A)                                                   39
+ M
+
+
+
+
+40   JDP 0-01.1 (2025, Edition A)
+                                                                             N
+
+
+
+
+N
+national contingent headquarters
+The national headquarters deployed alongside a combined joint task
+force headquarters, or another multinational theatre headquarters, for the
+purposes of executing national command over UK deployed forces.
+Note: With the exception of the lead nation, each country contributing
+forces to a multinational operation can be expected to deploy a national
+contingent commander who will exercise national command and
+represent national interests at the operational level.
+(JDP 0-01.1)
+
+naval gunfire support
+NGS
+An attack against targets ashore, or fixed locations at sea, using naval
+guns.
+(RN Fighting Instruction 1.1)
+
+no penetration line
+In land warfare, a line beyond which enemy forces may not cross.
+(PEHB 2018)
+
+non-combatant
+See JSP 383 for more detail on non-combatants.
+
+non-dedicated intelligence, surveillance and reconnaissance
+non-dedicated ISR
+Those assets not procured by the Ministry of Defence for specific
+intelligence, surveillance and reconnaissance tasks, but can contribute to
+the intelligence picture as part of their routine operations.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                 41
+ N
+
+
+
+
+42   JDP 0-01.1 (2025, Edition A)
+                                                                                O
+
+
+
+
+O
+offensive cyber operation
+OCO
+Activities that project power to achieve military objectives in or through
+cyberspace.
+(JDP 0-50, 2nd Edition)
+
+operating space
+All aspects of a joint operations area within which activities, both military
+and non-military, take place.
+(JDP 0-01.1)
+
+operational domain
+A specified sphere of capabilities and activities that can be applied within
+an engagement space.
+(NATOTerm)
+UK note: The UK recognises the five operational domains to be: maritime,
+land, air, space, and cyber and electromagnetic.
+
+operational reach
+The distance and duration across which a unit can successfully employ
+military capabilities.
+(AC 71943 US-UK Interoperability Guide)
+
+operations process
+The process by which commanders and staff conduct planning and
+execute the plan.
+(ADP Land Operations)
+
+operations themes
+The general conditions of the operating environment and the main
+activities which the force will be required to conduct.
+(ADP Land Operations and AJP-01)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                    43
+ O
+
+
+
+
+44   JDP 0-01.1 (2025, Edition A)
+                                                                               P
+
+
+
+
+P
+parallel command
+Nations (of a multinational force) retain control of their deployed forces.
+(AC 71943 US-UK Interoperability Guide)
+
+passive defence
+In the cyber domain, threat specific defensive measures to reduce the
+effectiveness of cyber activity.
+(JDP 0-01.1)
+
+peace agreement
+Formal or semi-formal agreements entered into by warring parties, often
+but not exclusively brokered by external actors.
+(TFSO Part 4)
+
+peace support operation
+PSO
+An operation using diplomatic, civil and military means, normally in pursuit
+of United Nations Charter purposes and principles, to restore or maintain
+peace.
+Note: Such operations may include conflict prevention, peace-making,
+peacekeeping, peace building and/or humanitarian operations.
+(RN Fighting Instruction 1.1)
+
+physical network
+Quantity and capability of fixed structures and established facilities.
+Note: The physical network includes factories, warehouses, airfields,
+seaports, roads, railroads, inland waterways, pipelines, terminals, bridges,
+tunnels and buildings.
+(AC 71943 US-UK Interoperability Guide)
+
+place of safety
+The point where eligible persons exit the evacuation chain and are no
+longer reliant on diplomatic or military assistance.
+(JDP 3-51, 3rd Edition)
+
+
+JDP 0-01.1 (2025, Edition A)                                                   45
+ P
+
+
+
+     political settlements
+     Those agreements that underpins state and state-society relations and
+     forms the relationship between formal and informal institutions and the
+     distribution of power in society.
+     (TFSO Part 4)
+
+     presence, posture, profile
+     The decisive and visible actions of force elements to influence the actions
+     and perceptions of target audiences.
+     (ATP-3.4.4.1 (DN 17/05))
+
+     priming equipment packs
+     For expeditionary operations, land priming equipment packs provide a
+     centrally issued modular pack of commodities with scales derived from
+     operational demand experience.
+     (DN 12/02 Sustainment)
+
+     prisoner of war
+     POW
+     A member of the armed forces of a party to an international armed
+     conflict who is captured by the armed forces of the enemy.
+     (JDP 1-10, 4th Edition)
+
+     public relations
+     The planned and sustained effort to establish and maintain goodwill and
+     mutual understanding between an organisation and its public.
+     (JDP 0-01.1)
+
+     Purple Gate
+     The single point of entry into the Defence Support Network to ensure
+     the regulation of materiel flow into the Defence Support Network for the
+     sustainment of operational theatres.
+     (CDLS Support Strategy)
+
+
+
+
+46                                                  JDP 0-01.1 (2025, Edition A)
+                               Q
+
+
+
+
+Q
+No terms and definitions.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)   47
+ Q
+
+
+
+
+48   JDP 0-01.1 (2025, Edition A)
+                                                                             R
+
+
+
+
+R
+reach
+The ability to operate for extended periods at considerable distance from
+support.
+(JDP 0-01.1)
+
+reception centre
+RC
+Pre-designated sites, selected by His Majesty’s Representative as part of
+a diplomatic post’s civil management plan, where individuals can enter the
+evacuation chain.
+(JDP 3-51, 3rd Edition, Version 2)
+
+recognised air picture
+RAP
+An electronically produced display from primary and secondary radar, and
+electromagnetic support measures sources covering a three-dimensional
+volume of interest in which all detected air contacts have been evaluated
+against specific threat parameters and then assigned a recognition
+category and track number.
+(JDP 0-01.1)
+
+recognised land picture
+RLP
+An electronically produced display from primary and secondary radar, and
+electromagnetic support measures sources covering a three‑dimensional
+volume of interest in which all detected surface contacts have been
+evaluated against specific threat parameters and then assigned a
+recognition category and track number.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                 49
+ R
+
+
+
+     recognised maritime picture
+     RMP
+     An electronically produced display compiled from active and passive
+     sensors covering a three-dimensional volume of interest in which all
+     detected maritime contacts have been evaluated against threat parameters
+     and assigned a recognition category and track number.
+     (RN Fighting Instruction 1.1 (AJP-3.1))
+
+     recuperation
+     The replacement of resources, including personnel and materiel, following
+     operational activity in preparation for further operations.
+     Note: Recuperation includes the training necessary to restore force
+     elements to their normal readiness level.
+     (AJP-3.13, UK national elements)
+
+     red team
+     A team that is formed with the objective of subjecting an organisation’s plans,
+     programmes, ideas and assumptions to rigorous analysis and challenge.
+     (JDP 0-01.1)
+
+     red teaming
+     The independent application of a range of structured, creative and critical
+     thinking techniques to assist the end user make a better informed decision
+     or produce a more robust product.
+     (JDP 0-01.1)
+
+     rehabilitation
+     The processing, usually in theatre in a relatively quiet area, of units,
+     individuals and equipment recently withdrawn from combat operations, to
+     prepare them for further combat operations.
+     (AJP-3.13, UK national elements)
+
+     remote and automated system
+     A system comprising the platform, control and sensor equipment, the
+     supporting network, information-processing system and associated
+     personnel where the platform may be operated remotely and/or have
+     automated functionality.
+     (JDP 0-01.1)
+
+50                                                   JDP 0-01.1 (2025, Edition A)
+                                                                                  R
+
+
+
+remotely piloted aircraft
+RPA
+An uncrewed aircraft that is controlled from a remote pilot station by a
+pilot who has been trained and certified to the same standards as a pilot
+of a crewed aircraft.
+(JDP 0-30, 3rd Edition)
+
+repair loop
+The process whereby unfit complete equipment and assemblies are
+moved from unit to, and through, the repair organisation and fit items
+returned to unit or stock.
+(DN 12/02 Sustainment)
+
+restricted target
+A valid target that has specific constraints and/or restraints placed on the
+actions authorised against it due to operational considerations.
+Notes: 1. Possible restrictions include when or how to engage a target or
+a specific prohibition on engaging the target due to operational, political
+and/or environmental, collateral considerations.
+2. The restriction must include precisely how target engagement is
+restricted, the duration of the restriction, who may lift the restriction, etc.
+(AJP-3.9, Edition B)
+
+restricted target list
+A list of restricted targets nominated by elements of the joint force and
+approved by the joint force commander or directed by higher authorities.
+Note: The restricted target list is a joint target list subset owned by the
+joint force commander and may include some joint prioritised target list
+targets. Regardless, these restrictions do not change the fact that targets
+on the restricted target list are valid military targets.
+(AJP-3.9, Edition B)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                      51
+ R
+
+
+
+     reverse supply chain
+     The returning of unserviceable and surplus items from the joint operations
+     area.
+     Note: Logistic staff in the joint operations area will identify surplus items
+     and seek disposal instructions from Defence Equipment and Support.
+     Project teams will request that certain specific items or ranges of items be
+     returned from the joint operations area when no longer serviceable.
+     (JDP 4-00, 4th Edition)
+
+     risk-estimate distances
+     The distance in metres or feet from the intended centre of impact of a
+     weapon at which a specific degree of risk and vulnerability will not be
+     exceeded.
+     (AP 3002, 5th Edition)
+
+     rotary wing strike
+     An attack against targets ashore, or fixed locations at sea, using ship
+     launched rotary wing aircraft and air-delivered weapons.
+     (RN Fighting Instruction 1.1)
+
+     roulement
+     The rotation of personnel or units in then front line with those in reserve
+     in order to maintain the fighting effectiveness of the forces engaged in an
+     operation.
+     (AFM Sustainment)
+
+
+
+
+52                                                  JDP 0-01.1 (2025, Edition A)
+                                                                            S
+
+
+
+
+S
+seabed warfare
+Operations to achieve operational advantage on the seabed.
+(JDSC Terminology Panel agreed)
+
+seaport of debarkation (SPOD)
+seaport of embarkation (SPOE)
+A water terminal with facilities for berthing ships at wharves and/or
+working anchorages.
+Note: A sea port of disembarkation or embarkation will be located within
+sheltered coastal waters and should be adjacent to reliable road, rail or
+inland waterway transport networks.
+(AC 71909 Logistic Port & Maritime Operations)
+
+search and attack unit
+SAU
+The designation given to a unit separately organised or despatched from
+a formation to search for and attack submarines.
+(ATP-01, Volume 1)
+
+ship taken up from trade
+A commercial ship chartered for military use.
+(AC 71909 Logistic Port & Maritime Operations)
+
+space control
+The use of defensive and offensive capabilities to assure access and
+freedom of action in space.
+(JDP 0-40)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                53
+ S
+
+
+
+     space domain awareness
+     SDA
+     The provision of security-focused, decision-quality information that can
+     be used to successfully mitigate adversary space effects while supporting
+     the integration of allied space effects into multi-domain operations.
+     Note: Space domain awareness is derived from the fusion and
+     aggregation of broader intelligence and knowledge of the terrestrial
+     domains with space situational awareness and space surveillance and
+     tracking data.
+     (JDP 0-40)
+
+     space power
+     Exerting influence in, from or through space.
+     (JDP 0-40)
+
+     space situational awareness
+     SSA
+     The provision of sufficient understanding of the risks and hazards
+     associated with domain congestion and complexity to enable safe and
+     effective space operations.
+     Note: Space situational awareness supports both civil and military
+     purposes.
+     (JDP 0-40)
+
+     space surveillance and tracking
+     SST
+     The detection, tracking and identification of objects in or entering
+     the space domain, using data from sensor observations and satellite
+     operators, sufficient to deliver effective space situational awareness,
+     space domain awareness and missile warning.
+     Note: Space surveillance and tracking is delivered for both civil and
+     military purposes.
+     (JDP 0-40)
+
+     special capabilities
+     Highly classified compartmentalised national capabilities that can be
+     generic or mission specific.
+     (JDP 0-01.1)
+
+54                                                   JDP 0-01.1 (2025, Edition A)
+                                                                             S
+
+
+
+split-based operations
+Performing certain combat service support administrative and
+management functions outside the joint operations area, whether in a
+secure location in the communications zone, at an intermediate staging
+base, or at a home station.
+(AC 71943 US-UK Interoperability Guide)
+
+strategic base
+Comprises military assets, industrial capacity both national and
+international, civilian contractors and National Health Service hospitals.
+Note: Military assets include elements owned by all three single Services,
+Strategic Command and Defence Equipment and Support.
+(JDP 1-05, 3rd Edition)
+
+strike warfare
+Attack against targets ashore using embarked aircraft, cruise missiles,
+naval gunfire or commando strike.
+(RN Fighting Instruction 2.1, based on AJP-3.1)
+
+supply
+The procurement, distribution, maintenance while in storage, and salvage
+of supplies, including the determination of kind and quantity of supplies.
+(AFM Sustainment)
+
+supply chain processing time
+SCPT
+The time that it will take for demanded materiel to reach the demanding
+unit.
+Note: This is based on the standard priority code of the demand, the
+time it takes for the demand to be processed in the strategic base, the
+capacity and speed of the Coupling Bridge and the time required for
+onward distribution within the joint operations area.
+(JDP 0-01.1 (derived from JDP 4-00, 4th Edition))
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                 55
+ S
+
+
+
+     surface action group
+     SAG
+     A ship or multiple ships formed as a group to locate and neutralise the
+     threat from enemy surface units.
+     (RN Fighting Instruction 1.1 (ATP-01, Volume 1))
+
+
+
+
+56                                                 JDP 0-01.1 (2025, Edition A)
+                                                                                       T
+
+
+
+
+T
+tactical functions
+A device that helps commanders to organise activities into intelligible
+groups; they have no effects themselves, whereas the activities do.
+Note: Few, if any, tactical functions stand alone.
+(TFSO Part 4)
+
+tactical questioning
+TQ
+The obtaining of information of a tactical nature from captured persons,
+the value of which would deteriorate or be lost altogether if the questioning
+was delayed.
+(JDP 1-10, 4th Edition)
+Note: UK definition retained even though there is a NATO Agreed definition.
+
+total asset visibility
+A concept whereby data from many sources is brought together to provide
+visibility of all assets thereby facilitating their control at the appropriate level
+of command.
+(DN 12/02 Sustainment)
+
+toxic industrial hazard
+TIH
+The hazard resulting from the release by any means of toxic industrial
+material resulting in the contamination or irradiation of personnel or the
+environment, area or any particular object.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                           57
+ T
+
+
+
+     toxic industrial material
+     TIM
+     A generic term for toxic or radioactive substances in solid, liquid,
+     aerosolised or gaseous form.
+     Notes: 1. These toxic industrial materials may be used, or stored for use,
+     for industrial, commercial, medical, military or domestic purposes.
+     2. Toxic industrial material may be chemical, biological or radioactive and
+     described as toxic industrial chemical, toxic industrial biological or toxic
+     industrial radiological.
+     (JDP 0-01.1)
+
+     transit corridor
+     TC
+     A bi-directional route established to route aircraft through air defences
+     within the rear area with minimum risk.
+     Note: Air traffic services not normally provided.
+     (AJP-3.3.5)
+
+
+
+
+58                                                   JDP 0-01.1 (2025, Edition A)
+                                                                             U
+
+
+
+
+U
+uncrewed aircraft
+An aircraft that does not carry a human operator and is operated remotely
+using varying levels of automated functions.
+Notes: 1. Uncrewed aircraft can be expendable or recoverable.
+2. Uncrewed aircraft may carry a lethal or non-lethal payload.
+3. Cruise missiles are not considered uncrewed aircraft.
+(JDP 0-30, 3rd Edition)
+
+uncrewed aircraft system
+UAS
+A system whose components include the uncrewed aircraft, the
+supporting network and all equipment and personnel necessary to
+control the uncrewed aircraft.
+(JDP 0-30, 3rd Edition)
+
+unit mobile stocks
+That element of first-line stocks that can be carried on unit transport.
+(DN 12/02 Sustainment)
+
+unit repair scale
+A scaling of spares which are in frequent demand for repairs being carried
+out by unit or attached repair tradesmen.
+(DN 12/02 Sustainment)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                 59
+ U
+
+
+
+
+60   JDP 0-01.1 (2025, Edition A)
+                                                                               V
+
+
+
+
+V
+vulnerable captured person
+An individual who by reason of mental or other disability, age, illness
+or other grounds, is or may be unable to take care of themselves; or is
+unable to protect themselves against significant harm or exploitation; or is
+dependent on others for assistance in the performance of basic physical
+functions.
+(JDP 1-10, 4th Edition)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                                   61
+ V
+
+
+
+
+62   JDP 0-01.1 (2025, Edition A)
+                                                                        W
+
+
+
+
+W
+weapons-free zone
+WFZ
+An air and missile defence zone established around key assets
+or facilities, other than airbases, which merit special protection by
+surface‑based air and missile defence assets where weapons may be
+fired at any target not positively identified as friendly.
+(AJP-3.3.5, Edition C)
+
+weapons intelligence
+Intelligence concerning components, manufacture, origin and method
+of employment of all foreign and domestic conventional and improvised
+weapons, munitions and devices.
+(JDP 0-01.1)
+
+
+
+
+JDP 0-01.1 (2025, Edition A)                                            63
+ W
+
+
+
+
+64   JDP 0-01.1 (2025, Edition A)
+                               X
+
+
+
+
+X
+No terms and definitions.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)   65
+ X
+
+
+
+
+66   JDP 0-01.1 (2025, Edition A)
+                               Y
+
+
+
+Y
+No terms and definitions.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)   67
+ Y
+
+
+
+
+68   JDP 0-01.1 (2025, Edition A)
+                               Z
+
+
+
+
+Z
+No terms and definitions.
+
+
+
+
+JDP 0-01.1 (2025, Edition A)   69
+ Z
+
+
+
+
+70   JDP 0-01.1 (2025, Edition A)
+                                Crown copyright 2025
+                        Published by the Ministry of Defence
+This publication is also available at www.gov.uk/government/groups/joint-doctrine
+

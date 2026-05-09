@@ -14,7 +14,7 @@ web/node_modules/
 .DS_Store
 .vscode/
 .idea/
-docs/
 *.tsbuildinfo
 *.docx
+.cache/
 
