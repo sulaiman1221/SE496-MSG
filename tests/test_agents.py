@@ -148,3 +148,73 @@ def test_base_agent_rejects_missing_class_attrs(fake_openai_client, settings):
 
     with pytest.raises(TypeError, match="PROMPT_FILE"):
         IncompleteAgent(client=fake_openai_client, settings=settings)
+
+
+@pytest.mark.asyncio
+async def test_variant_includes_doctrine_when_rag_provided(
+    fake_openai_client,
+    settings,
+    sample_mission,
+    sample_seed,
+    sample_variant_en,
+    fake_rag,
+):
+    fake_openai_client.chat.completions.parse.return_value = make_parsed_response(
+        sample_variant_en
+    )
+    agent = VariantAgent(
+        client=fake_openai_client, settings=settings, rag=fake_rag
+    )
+
+    request = VariantRequest(mission=sample_mission, seed=sample_seed)
+    await agent.run(request)
+
+    fake_rag.retrieve.assert_called_once()
+    kwargs = _call_kwargs(fake_openai_client.chat.completions.parse)
+    system_msg = kwargs["messages"][0]["content"]
+    assert "DOCTRINE CONTEXT" in system_msg
+    assert "DOCTRINE A" in system_msg
+    assert "DOCTRINE B" in system_msg
+
+
+@pytest.mark.asyncio
+async def test_variant_skips_doctrine_when_rag_is_none(
+    fake_openai_client, settings, sample_mission, sample_seed, sample_variant_en
+):
+    fake_openai_client.chat.completions.parse.return_value = make_parsed_response(
+        sample_variant_en
+    )
+    agent = VariantAgent(client=fake_openai_client, settings=settings)
+
+    request = VariantRequest(mission=sample_mission, seed=sample_seed)
+    await agent.run(request)
+
+    kwargs = _call_kwargs(fake_openai_client.chat.completions.parse)
+    system_msg = kwargs["messages"][0]["content"]
+    assert "\n\nDOCTRINE CONTEXT:\n" not in system_msg
+
+
+@pytest.mark.asyncio
+async def test_validator_includes_doctrine_when_rag_provided(
+    fake_openai_client,
+    settings,
+    sample_variant_en,
+    sample_variant_ar,
+    sample_verdict,
+    fake_rag,
+):
+    fake_openai_client.chat.completions.parse.return_value = make_parsed_response(
+        sample_verdict
+    )
+    agent = ValidatorAgent(
+        client=fake_openai_client, settings=settings, rag=fake_rag
+    )
+
+    request = ValidatorRequest(en=sample_variant_en, ar=sample_variant_ar)
+    await agent.run(request)
+
+    fake_rag.retrieve.assert_called_once()
+    kwargs = _call_kwargs(fake_openai_client.chat.completions.parse)
+    system_msg = kwargs["messages"][0]["content"]
+    assert "DOCTRINE CONTEXT" in system_msg
+    assert "DOCTRINE A" in system_msg

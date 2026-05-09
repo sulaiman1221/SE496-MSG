@@ -6,18 +6,8 @@ import { MetricBar } from "@/components/scenario/MetricBar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import type { ThreatLevel, Variant } from "@/lib/types";
+import type { Variant } from "@/lib/types";
 import { cn } from "@/lib/utils";
-
-const THREAT_VARIANT: Record<
-  ThreatLevel,
-  "info" | "success" | "warning" | "danger"
-> = {
-  low: "success",
-  moderate: "info",
-  high: "warning",
-  critical: "danger",
-};
 
 function downloadVariant(variant: Variant) {
   const blob = new Blob([JSON.stringify(variant, null, 2)], {
@@ -77,10 +67,10 @@ export function VariantCard({
                 #{String(variant.variant_index + 1).padStart(2, "0")}
               </span>
               <span>·</span>
-              <Badge variant={THREAT_VARIANT[variant.threat_level]}>
+              <Badge>
                 {t(`enum.threatLevel.${variant.threat_level}`)}
               </Badge>
-              <Badge variant={validated ? "success" : "warning"}>
+              <Badge>
                 {t(
                   validated
                     ? "variant.status.validated"
@@ -132,12 +122,7 @@ export function VariantCard({
                 key={objective.id}
                 className="flex items-start gap-3"
               >
-                <Badge
-                  variant={
-                    objective.priority === "primary" ? "info" : "default"
-                  }
-                  className="mt-0.5"
-                >
+                <Badge className="mt-0.5">
                   {t(`enum.priority.${objective.priority}`)}
                 </Badge>
                 <span>{objective.description}</span>

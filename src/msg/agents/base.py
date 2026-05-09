@@ -26,11 +26,20 @@ class BaseAgent[TResponse: BaseModel]:
         self._settings = settings
         self._system_prompt = _load_prompt(self.PROMPT_FILE)
 
+    async def _doctrine_context(self, payload: BaseModel) -> str | None:
+        """Override to inject retrieved doctrine into the system prompt."""
+        return None
+
     async def run(self, payload: BaseModel) -> TResponse:
+        system_prompt = self._system_prompt
+        context = await self._doctrine_context(payload)
+        if context:
+            system_prompt = f"{system_prompt}\n\nDOCTRINE CONTEXT:\n{context}"
+
         response = await self._client.chat.completions.parse(
             model=self._settings.openai_model,
             messages=[
-                {"role": "system", "content": self._system_prompt},
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": payload.model_dump_json()},
             ],
             response_format=self.RESPONSE_MODEL,

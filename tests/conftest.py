@@ -17,6 +17,7 @@ from msg.domain import (
     Variant,
     Weapon,
 )
+from msg.rag import DoctrineRAG
 
 
 @pytest.fixture
@@ -175,3 +176,23 @@ def sample_verdict() -> ValidationVerdict:
         doctrine_plausible=True,
         issues=[],
     )
+
+
+@pytest.fixture
+def fake_rag():
+    rag = MagicMock(spec=DoctrineRAG)
+    rag.retrieve.return_value = [
+        {
+            "source": "ajp-3-2.txt",
+            "chunk_index": 0,
+            "text": "DOCTRINE A: positive identification before engagement.",
+            "score": 0.91,
+        },
+        {
+            "source": "san-remo-roe.txt",
+            "chunk_index": 5,
+            "text": "DOCTRINE B: proportional response under EoF continuum.",
+            "score": 0.87,
+        },
+    ]
+    return rag

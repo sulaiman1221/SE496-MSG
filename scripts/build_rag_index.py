@@ -5,11 +5,14 @@ OpenAI embedding API, and writes the result to .cache/rag_index.pkl.
 
 Run once after changing the corpus, or whenever the cache is missing.
 
-Requires OPENAI_API_KEY in the environment.
+Loads OPENAI_API_KEY from the project's .env file via Settings.
 """
 
 from pathlib import Path
 
+from openai import OpenAI
+
+from msg.config import get_settings
 from msg.rag import DoctrineRAG
 
 
@@ -18,7 +21,10 @@ def main() -> None:
     corpus = here / "docs" / "corpus"
     index = here / ".cache" / "rag_index.pkl"
 
-    rag = DoctrineRAG(corpus_dir=corpus, index_path=index)
+    settings = get_settings()
+    client = OpenAI(api_key=settings.openai_api_key)
+
+    rag = DoctrineRAG(corpus_dir=corpus, index_path=index, client=client)
     n = rag.build()
     size_kb = index.stat().st_size / 1024
     print(f"indexed {n} chunks from {corpus}")

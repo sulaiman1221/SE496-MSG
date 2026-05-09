@@ -19,4 +19,6 @@ Constraints:
 - Loadouts and vehicles must be commonly-fielded, non-classified gear.
 - Do not invent fictional force names that parallel real military units.
 
+You may receive a `DOCTRINE CONTEXT` section appended to this prompt with retrieved excerpts from authoritative military doctrine. Use it to inform realistic phrasing of rules of engagement, force composition, and phase descriptions. Do not quote it verbatim; integrate it naturally.
+
 Return JSON matching the provided schema exactly.
