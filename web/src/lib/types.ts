@@ -2,9 +2,21 @@ export type Difficulty = "easy" | "medium" | "hard" | "expert";
 
 export type MissionType = "assault" | "defense" | "ambush";
 
-export type TerrainType = "desert" | "mountain";
+export type TerrainType =
+  | "desert"
+  | "mountain"
+  | "urban"
+  | "coast"
+  | "valley"
+  | "oasis";
 
-export type WeatherType = "clear" | "sandstorm" | "fog";
+export type WeatherType =
+  | "clear"
+  | "sandstorm"
+  | "fog"
+  | "rain"
+  | "thunderstorm"
+  | "windy";
 
 export type TimeOfDay = "dawn" | "day" | "dusk" | "night";
 export type Language = "en" | "ar";
@@ -13,11 +25,12 @@ export type EnemyThreatLevel = ThreatLevel;
 export type ObjectivePriority = "primary" | "secondary";
 
 export type UnitType =
-  | "infantry_squad"
-  | "mechanized_platoon"
-  | "armor_section"
-  | "special_forces_team"
-  | "support_element";
+  | "land_forces"
+  | "air_force"
+  | "naval_forces"
+  | "air_defense_forces"
+  | "strategic_missile_force"
+  | "medical_support";
 
 type WeaponCategory =
   | "rifle"
@@ -150,6 +163,7 @@ export interface Scenario {
   status: string;
   model: string;
   image_url: string | null;
+  tactical_map_url: string | null;
   variants: ScenarioVariant[];
 }
 

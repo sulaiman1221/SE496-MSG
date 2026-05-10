@@ -5,10 +5,10 @@ import { Link, useParams } from "react-router-dom";
 
 import { VariantCard } from "@/components/scenario/VariantCard";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useScenario } from "@/lib/queries";
-import type { Language, Scenario, ScenarioVariant } from "@/lib/types";
+import type { Language, ScenarioVariant } from "@/lib/types";
 
 function selectVariants(
   variants: ScenarioVariant[],
@@ -29,14 +29,13 @@ function formatDate(iso: string, locale: string): string {
   });
 }
 
-async function downloadImage(scenario: Scenario): Promise<void> {
-  if (!scenario.image_url) return;
-  const response = await fetch(scenario.image_url);
+async function downloadImage(url: string, filename: string): Promise<void> {
+  const response = await fetch(url);
   const blob = await response.blob();
   const objectUrl = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = objectUrl;
-  link.download = `scenario-${scenario.id.slice(0, 8)}.png`;
+  link.download = filename;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -81,6 +80,7 @@ export function ScenarioReview() {
   }
 
   const scenario = query.data;
+  const shortId = scenario.id.slice(0, 8);
 
   return (
     <div className="space-y-5">
@@ -108,62 +108,39 @@ export function ScenarioReview() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card>
-          <CardHeader>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-3">
-              <MetaItem
-                label={t("review.meta.created")}
-                value={formatDate(scenario.created_at, i18n.language)}
-              />
-              <MetaItem
-                label={t("review.meta.missionType")}
-                value={t(`enum.missionType.${scenario.mission.mission_type}`)}
-              />
-              <MetaItem
-                label={t("review.meta.difficulty")}
-                value={t(`enum.difficulty.${scenario.mission.difficulty}`)}
-              />
-              <MetaItem
-                label={t("review.meta.model")}
-                value={scenario.model}
-                mono
-              />
-            </div>
-          </CardHeader>
-        </Card>
-
-        <Card className="overflow-hidden">
-          {scenario.image_url ? (
-            <>
-              <img
-                src={scenario.image_url}
-                alt=""
-                className="aspect-square w-full object-cover"
-              />
-              <CardContent className="flex justify-end pt-3">
-                <Button
-                  type="button"
-                  variant="ghost"
-                  size="sm"
-                  onClick={() => {
-                    void downloadImage(scenario);
-                  }}
-                >
-                  <Download className="size-4" aria-hidden />
-                  <span>{t("review.downloadImage")}</span>
-                </Button>
-              </CardContent>
-            </>
-          ) : (
-            <div
-              className="flex aspect-square w-full items-center justify-center bg-gradient-to-br from-slate-800 to-slate-950"
-              aria-hidden
-            >
-              <ImageIcon className="size-12 text-slate-700" />
-            </div>
-          )}
-        </Card>
+        <ImageCard
+          url={scenario.tactical_map_url}
+          filename={`tactical-${shortId}.png`}
+          downloadLabel={t("review.downloadTacticalMap")}
+        />
+        <ImageCard
+          url={scenario.image_url}
+          filename={`scenario-${shortId}.png`}
+          downloadLabel={t("review.downloadImage")}
+        />
       </div>
+
+      <Card>
+        <CardContent className="flex flex-wrap items-start gap-x-10 gap-y-3 py-4">
+          <MetaItem
+            label={t("review.meta.created")}
+            value={formatDate(scenario.created_at, i18n.language)}
+          />
+          <MetaItem
+            label={t("review.meta.missionType")}
+            value={t(`enum.missionType.${scenario.mission.mission_type}`)}
+          />
+          <MetaItem
+            label={t("review.meta.difficulty")}
+            value={t(`enum.difficulty.${scenario.mission.difficulty}`)}
+          />
+          <MetaItem
+            label={t("review.meta.model")}
+            value={scenario.model}
+            mono
+          />
+        </CardContent>
+      </Card>
 
       {visible.length === 0 ? (
         <Card>
@@ -183,6 +160,50 @@ export function ScenarioReview() {
         </div>
       )}
     </div>
+  );
+}
+
+function ImageCard({
+  url,
+  filename,
+  downloadLabel,
+}: {
+  url: string | null;
+  filename: string;
+  downloadLabel: string;
+}) {
+  return (
+    <Card className="overflow-hidden">
+      {url ? (
+        <>
+          <img
+            src={url}
+            alt=""
+            className="aspect-square w-full object-cover"
+          />
+          <CardContent className="flex justify-end pt-3">
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              onClick={() => {
+                void downloadImage(url, filename);
+              }}
+            >
+              <Download className="size-4" aria-hidden />
+              <span>{downloadLabel}</span>
+            </Button>
+          </CardContent>
+        </>
+      ) : (
+        <div
+          className="flex aspect-square w-full items-center justify-center bg-gradient-to-br from-slate-800 to-slate-950"
+          aria-hidden
+        >
+          <ImageIcon className="size-12 text-slate-700" />
+        </div>
+      )}
+    </Card>
   );
 }
 
@@ -214,9 +235,10 @@ function ScenarioSkeleton() {
     <div className="space-y-5">
       <Skeleton className="h-8 w-56" />
       <div className="grid gap-4 lg:grid-cols-2">
-        <Skeleton className="h-44 w-full" />
+        <Skeleton className="aspect-square w-full" />
         <Skeleton className="aspect-square w-full" />
       </div>
+      <Skeleton className="h-16 w-full" />
       {Array.from({ length: 5 }).map((_, i) => (
         <Skeleton key={i} className="h-56 w-full" />
       ))}

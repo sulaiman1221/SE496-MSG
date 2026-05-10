@@ -7,11 +7,12 @@ Difficulty = Literal["easy", "medium", "hard", "expert"]
 MissionType = Literal["assault", "defense", "ambush"]
 
 UnitType = Literal[
-    "infantry_squad",
-    "mechanized_platoon",
-    "armor_section",
-    "special_forces_team",
-    "support_element",
+    "land_forces",
+    "air_force",
+    "naval_forces",
+    "air_defense_forces",
+    "strategic_missile_force",
+    "medical_support",
 ]
 
 EnemyThreatLevel = Literal["low", "moderate", "high", "critical"]

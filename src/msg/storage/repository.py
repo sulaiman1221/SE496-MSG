@@ -50,6 +50,7 @@ class Repository:
         mission: Mission,
         model: str,
         image_url: str | None = None,
+        tactical_map_url: str | None = None,
     ) -> UUID:
         response = (
             await self._client.table("scenarios")
@@ -58,6 +59,7 @@ class Repository:
                     "mission": mission.model_dump(mode="json"),
                     "model": model,
                     "image_url": image_url,
+                    "tactical_map_url": tactical_map_url,
                 }
             )
             .execute()
@@ -146,6 +148,7 @@ class Repository:
             status=row["status"],
             model=row["model"],
             image_url=row.get("image_url"),
+            tactical_map_url=row.get("tactical_map_url"),
             variants=[
                 ScenarioVariant(
                     id=v["id"],

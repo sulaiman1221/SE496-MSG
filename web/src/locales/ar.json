@@ -43,7 +43,6 @@
       "additionalContext": "سياق إضافي"
     },
     "placeholders": {
-      "title": "مثال: عملية درع الصحراء",
       "additionalContext": "أي متطلبات محددة، مراجع عقيدية، أو قيود…"
     },
     "hints": {
@@ -52,7 +51,6 @@
       "bilingual": "تُولَّد السيناريوهات باللغتين العربية والإنجليزية تلقائيًا.",
       "generating": "جارٍ كتابة والتحقق من {{n}} بدائل ثنائية اللغة."
     },
-    "auto": "تلقائي",
     "submit": "توليد {{n}} سيناريوهات",
     "generating": "جارٍ التوليد…",
     "error": "فشل توليد السيناريو. راجع سجلات الخادم وأعد المحاولة."
@@ -85,6 +83,7 @@
     "notFound": "لم يتم العثور على السيناريو.",
     "noVariantsInLanguage": "لا توجد بدائل بهذه اللغة لهذا السيناريو.",
     "downloadImage": "تنزيل الصورة",
+    "downloadTacticalMap": "تنزيل الخريطة التكتيكية",
     "meta": {
       "created": "تاريخ الإنشاء",
       "missionType": "نوع المهمة",
@@ -137,12 +136,19 @@
     },
     "terrain": {
       "desert": "صحراء",
-      "mountain": "جبل"
+      "mountain": "جبل",
+      "urban": "حضري",
+      "coast": "ساحل",
+      "valley": "وادي",
+      "oasis": "واحة"
     },
     "weather": {
       "clear": "صحو",
       "sandstorm": "عاصفة رملية",
-      "fog": "ضباب"
+      "fog": "ضباب",
+      "rain": "مطر",
+      "thunderstorm": "عاصفة رعدية",
+      "windy": "عاصف"
     },
     "timeOfDay": {
       "dawn": "الفجر",
@@ -161,11 +167,12 @@
       "secondary": "ثانوي"
     },
     "unitType": {
-      "infantry_squad": "فصيلة مشاة",
-      "mechanized_platoon": "فصيلة آلية",
-      "armor_section": "قسم مدرعات",
-      "special_forces_team": "فريق قوات خاصة",
-      "support_element": "عنصر دعم"
+      "land_forces": "القوات البرية",
+      "air_force": "القوات الجوية",
+      "naval_forces": "القوات البحرية",
+      "air_defense_forces": "قوات الدفاع الجوي",
+      "strategic_missile_force": "قوة الصواريخ الاستراتيجية",
+      "medical_support": "الخدمات الطبية"
     }
   }
 }

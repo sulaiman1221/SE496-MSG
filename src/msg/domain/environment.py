@@ -4,9 +4,13 @@ from pydantic import BaseModel, ConfigDict
 
 TimeOfDay = Literal["dawn", "day", "dusk", "night"]
 
-TerrainType = Literal["desert", "mountain"]
+TerrainType = Literal[
+    "desert", "mountain", "urban", "coast", "valley", "oasis"
+]
 
-WeatherType = Literal["clear", "sandstorm", "fog"]
+WeatherType = Literal[
+    "clear", "sandstorm", "fog", "rain", "thunderstorm", "windy"
+]
 
 
 class Environment(BaseModel):

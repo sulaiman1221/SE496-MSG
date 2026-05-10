@@ -58,11 +58,12 @@ const schema = z.object({
   aircraft: z.array(z.string()),
   friendly_unit_types: z.array(
     z.enum([
-      "infantry_squad",
-      "mechanized_platoon",
-      "armor_section",
-      "special_forces_team",
-      "support_element",
+      "land_forces",
+      "air_force",
+      "naval_forces",
+      "air_defense_forces",
+      "strategic_missile_force",
+      "medical_support",
     ]),
   ),
   enemy_threat_level: z.enum(ENEMY_THREAT_LEVELS),
@@ -104,8 +105,8 @@ export function MissionInput() {
     defaultValues: {
       mission_type: "assault",
       title: "",
-      terrain: undefined,
-      weather: undefined,
+      terrain: "desert",
+      weather: "clear",
       time_of_day: "day",
       visibility_pct: DEFAULT_VISIBILITY_PCT,
       aircraft: [],
@@ -187,11 +188,7 @@ export function MissionInput() {
               <Label htmlFor="title">
                 {t("missionInput.fields.title")}
               </Label>
-              <Input
-                id="title"
-                placeholder={t("missionInput.placeholders.title")}
-                {...form.register("title")}
-              />
+              <Input id="title" {...form.register("title")} />
             </div>
           </AccordionContent>
         </AccordionItem>
@@ -220,10 +217,7 @@ export function MissionInput() {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value={AUTO}>
-                          {t("missionInput.auto")}
-                        </SelectItem>
-                        {TERRAIN_TYPES.map((option) => (
+{TERRAIN_TYPES.map((option) => (
                           <SelectItem key={option} value={option}>
                             {t(`enum.terrain.${option}`)}
                           </SelectItem>
@@ -251,10 +245,7 @@ export function MissionInput() {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value={AUTO}>
-                          {t("missionInput.auto")}
-                        </SelectItem>
-                        {WEATHER_TYPES.map((option) => (
+{WEATHER_TYPES.map((option) => (
                           <SelectItem key={option} value={option}>
                             {t(`enum.weather.${option}`)}
                           </SelectItem>

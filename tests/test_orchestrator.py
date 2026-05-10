@@ -195,7 +195,10 @@ async def test_generate_and_persist_writes_scenario_variants_and_audit(
     scenario_id = await orchestrator.generate_and_persist(sample_mission)
 
     fake_repository.save_scenario.assert_awaited_once_with(
-        mission=sample_mission, model=settings.openai_model, image_url=None
+        mission=sample_mission,
+        model=settings.openai_model,
+        image_url=None,
+        tactical_map_url=None,
     )
     fake_repository.save_variants.assert_awaited_once()
     saved_variants = fake_repository.save_variants.await_args.kwargs["generated"]

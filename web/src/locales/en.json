@@ -43,7 +43,6 @@
       "additionalContext": "Additional Context"
     },
     "placeholders": {
-      "title": "e.g., Operation Desert Shield",
       "additionalContext": "Any specific requirements, doctrine references, or constraints…"
     },
     "hints": {
@@ -52,7 +51,6 @@
       "bilingual": "Scenarios are generated in English and Arabic automatically.",
       "generating": "Writing and validating {{n}} bilingual variants."
     },
-    "auto": "Auto",
     "submit": "Generate {{n}} Scenarios",
     "generating": "Generating…",
     "error": "Scenario generation failed. Check the backend logs and try again."
@@ -85,6 +83,7 @@
     "notFound": "Scenario not found.",
     "noVariantsInLanguage": "This scenario has no variants in the selected language.",
     "downloadImage": "Download image",
+    "downloadTacticalMap": "Download tactical map",
     "meta": {
       "created": "Created",
       "missionType": "Mission type",
@@ -137,12 +136,19 @@
     },
     "terrain": {
       "desert": "Desert",
-      "mountain": "Mountain"
+      "mountain": "Mountain",
+      "urban": "Urban",
+      "coast": "Coast",
+      "valley": "Valley",
+      "oasis": "Oasis"
     },
     "weather": {
       "clear": "Clear",
       "sandstorm": "Sandstorm",
-      "fog": "Fog"
+      "fog": "Fog",
+      "rain": "Rain",
+      "thunderstorm": "Thunderstorm",
+      "windy": "Windy"
     },
     "timeOfDay": {
       "dawn": "Dawn",
@@ -161,11 +167,12 @@
       "secondary": "Secondary"
     },
     "unitType": {
-      "infantry_squad": "Infantry Squad",
-      "mechanized_platoon": "Mechanized Platoon",
-      "armor_section": "Armor Section",
-      "special_forces_team": "Special Forces Team",
-      "support_element": "Support Element"
+      "land_forces": "Land Forces",
+      "air_force": "Air Force",
+      "naval_forces": "Naval Forces",
+      "air_defense_forces": "Air Defense Forces",
+      "strategic_missile_force": "Strategic Missile Force",
+      "medical_support": "Medical Support"
     }
   }
 }

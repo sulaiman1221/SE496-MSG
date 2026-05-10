@@ -102,4 +102,5 @@ class Scenario(BaseModel):
     status: str
     model: str
     image_url: str | None = None
+    tactical_map_url: str | None = None
     variants: list[ScenarioVariant] = Field(default_factory=list)

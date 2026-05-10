@@ -24,12 +24,19 @@ export const DIFFICULTIES = [
 export const TERRAIN_TYPES = [
   "desert",
   "mountain",
+  "urban",
+  "coast",
+  "valley",
+  "oasis",
 ] as const satisfies readonly TerrainType[];
 
 export const WEATHER_TYPES = [
   "clear",
   "sandstorm",
   "fog",
+  "rain",
+  "thunderstorm",
+  "windy",
 ] as const satisfies readonly WeatherType[];
 
 export const TIMES_OF_DAY = [
@@ -40,11 +47,12 @@ export const TIMES_OF_DAY = [
 ] as const satisfies readonly TimeOfDay[];
 
 export const FRIENDLY_UNIT_TYPES = [
-  "infantry_squad",
-  "mechanized_platoon",
-  "armor_section",
-  "special_forces_team",
-  "support_element",
+  "land_forces",
+  "air_force",
+  "naval_forces",
+  "air_defense_forces",
+  "strategic_missile_force",
+  "medical_support",
 ] as const satisfies readonly UnitType[];
 
 export const ENEMY_THREAT_LEVELS = [
